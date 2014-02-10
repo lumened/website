@@ -1,4 +1,9 @@
-website
+Website
 =======
+Attempt to create the lumened.org website using bootstrap.
 
-lumened.org website
+Collaborators
+=======
+Henry Harboe
+Thomas Kreek
+Prakash Paudel
