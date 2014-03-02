@@ -65,7 +65,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  max-height: 700px;
+  max-height: 600px;
   background-color: #777;
 }
 .carousel-inner > .item > img {
