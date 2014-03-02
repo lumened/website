@@ -36,8 +36,10 @@ body {
 }
 
 .container .navbar-brand {
+  color: rgba(206,166,58,1);
   padding-left: 30px;
   padding-right: 30px;
+  left: 20px;
 }
 
 .nav.navbar-nav {
@@ -167,3 +169,23 @@ body {
     margin-top: 120px;
   }
 }
+
+/* Henry's CSS */
+
+.logo {
+	height: 42px;
+	width: 42px;
+	right: 18px;
+	top: 5px;
+	position: relative;
+}
+
+/*img {
+max-width: 120%;
+height: auto;
+width: auto;
+z-index:-1;
+position: absolute;
+right: 50px;
+bottom: 30px;
+}*/
