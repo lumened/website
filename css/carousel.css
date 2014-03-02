@@ -56,6 +56,7 @@ body {
 /* Carousel base class */
 .carousel {
  /*  max-height: 500px; */
+  margin-top: 51px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -134,7 +135,7 @@ body {
 
   /* Navbar positioning foo */
   .navbar-wrapper {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   
   .navbar-wrapper .container {
