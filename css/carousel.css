@@ -55,28 +55,26 @@ body {
 
 /* Carousel base class */
 .carousel {
- /*  max-height: 500px; */
+  max-height: 600px;
   margin-top: 51px;
   margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  /* z-index: 10; */
+  z-index: 10;
     
 }
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
   max-height: 600px;
+  min-height: 200px;
   background-color: #000;
 }
 .carousel-inner > .item > img {
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  /* min-width: 100%; DELETING THIS FOR LOGO ON FIRST SLIDE */
-  /* height: 500px; */
+    min-height: inherit;
 }
+
 
 
 
@@ -178,7 +176,12 @@ body {
 
 /* Henry's CSS */
 
+.parent1 {
+    min-height: inherit;
+}
+
 .video-container {
+    min-height: inherit;
     position: relative;
     padding-bottom: 28.25%;
 	overflow: hidden;
@@ -188,6 +191,7 @@ body {
 .video-container iframe,
 .video-container object,
 .video-container embed {
+    min-height: inherit;
     position: relative;
     top: 0;
     width: 50%;
