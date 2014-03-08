@@ -95,10 +95,10 @@ body {
 .video-container embed {
     min-height: inherit;
     position: relative;
-    margin-top: 50px;
+    margin-top: 20px;
     width: 40%;
     height: 80%;
-    margin-right: 200px;
+    margin-right: 50px;
     float: right;
     z-index: 1000;
 }
