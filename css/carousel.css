@@ -71,10 +71,46 @@ body {
   min-height: 200px;
   background-color: #000;
 }
+
 .carousel-inner > .item > img {
     min-height: inherit;
 }
 
+/* Custome Carousel Slide #1 CSS - Henry, Prakash*/
+
+.parent1 {
+    min-height: inherit;
+}
+
+.video-container {
+    min-height: inherit;
+    position: relative;
+    padding-bottom: 28.25%;
+	overflow: hidden;
+	height: 0px;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    min-height: inherit;
+    position: relative;
+    margin-top: 50px;
+    width: 40%;
+    height: 80%;
+    margin-right: 200px;
+    float: right;
+    z-index: 1000;
+}
+
+.logo {
+    position: relative;
+    top: 50px;
+    float: left;
+    left: 100px;
+    width: 20%; 
+    height: 40%;
+}
 
 
 
@@ -173,61 +209,3 @@ body {
     margin-top: 120px;
   }
 }
-
-/* Henry's CSS */
-
-.parent1 {
-    min-height: inherit;
-}
-
-.video-container {
-    min-height: inherit;
-    position: relative;
-    padding-bottom: 28.25%;
-	overflow: hidden;
-	height: 0px;
-}
- 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-    min-height: inherit;
-    position: relative;
-    top: 0;
-    width: 50%;
-    height: 100%;
-    margin-right: 20px;
-    float: right;
-}
-
-.logo {
-    position: relative;
-    top: 50px;
-    float: left;
-    left: 100px;
-    width: 50%;
-    height: 50%;
-    width: 20%; 
-    height: 40%;
-}
-
-
-
-/*.logo {
-	height: 42px;
-	width: 42px;
-	right: 18px;
-	top: 5px;
-	position: relative;
-}*/
-
-/*img {
-max-width: 120%;
-height: auto;
-width: auto;
-z-index:-1;
-position: absolute;
-right: 50px;
-bottom: 30px;
-}*/
-
