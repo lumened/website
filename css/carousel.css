@@ -77,6 +77,10 @@ body {
 
 /* Custom Carousel Slide #1 CSS - Henry, Prakash*/
 @media (min-width: 900px){
+	.onlySmall {
+		display: none;
+	}
+	
 	.carousel-inner > .item > .backgroundslide {
 		display: none;
 	}
@@ -121,7 +125,8 @@ body {
 @media (max-width:899px){
 	.parent1,
 	.video-container,
-	.logo{
+	.logo,
+	.onlyBig{
 		display: none;
 	}
 }
