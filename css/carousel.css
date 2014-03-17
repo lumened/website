@@ -183,7 +183,7 @@ body {
 	.featurette-heading {
 		font-size: 50px;
 	}
-	}
+}
 
 @media (min-width: 992px) and (max-width: 1199px){
 	.marketing .col-md-7 p {
@@ -194,6 +194,14 @@ body {
 	}
 }
 
+@media (min-width: 768px) and (max-width: 991px){
+	.marketing .col-md-7 p {
+		font-size: 16px;
+	}
+	.featurette-heading {
+		font-size: 30px;
+	}
+}
 
 /* Thin out the marketing headings */
 .featurette-heading {
