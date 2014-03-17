@@ -177,7 +177,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 40px 0; /* Space out the Bootstrap <hr> more */
 }
 @media (min-width: 1200px){
 	.featurette-heading {
@@ -206,9 +206,6 @@ body {
 @media (min-width: 768px){
 	.featuretteSmall {
 		display:none;
-	}
-	.featuretteBig {
-		margin-top: 100px;
 	}
 }
 
