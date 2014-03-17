@@ -203,6 +203,15 @@ body {
 	}
 }
 
+@media (max-width: 768px){
+	.featurette-image {
+		max-width:60%;
+		margin-left:20%;
+		margin-right:20%;
+		
+	}
+}
+
 /* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
