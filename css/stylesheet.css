@@ -1,13 +1,14 @@
 /* Global CSS
 -----------------*/
 
+
+
 /* Navbar
 -----------------*/
 .navbar {
 	margin-bottom: 0px;
 	background-color: rgba(247,148,29,1);
 	/*color: rgba(254,201,15,1);*/
-	
 	}
 
 /* Cover Page
@@ -26,7 +27,7 @@
 
 /* Page 2
 ----------------*/
-.page-2 {
+.page-2{
 	margin: 60px 30px 60px 30px;
 }
 
@@ -36,17 +37,32 @@
 	margin-bottom: 60px;
 }
 
+.page-2 img {
+	float:right;
+	}
+
 /* Page 3
 ----------------*/
 .page-3 {
 	background-color:rgba(126,157,228,1);
+	padding: 60px 0px;
 }
 .page-3 h1 {
 	text-align: center;
 	color: white;
-	margin: 60px auto;
+	margin: 0px 30px 30px 30px;
 }
 
+.page-3 h2 {
+	text-align: center;
+	color: white;
+	margin: 30px auto 30px auto;
+}
+
+.page-3 img{
+	display:block;
+	margin: auto auto;
+}
 
 
 
@@ -99,14 +115,19 @@
 	}
 	/*Page 2*/
 	.page-2 img{
-		margin: 0px 41%;
+		float: none;
+		display:block;
+		margin: auto auto;
 	}
 	.page-2 .btn {
-		margin: 10px 41%;
+		display:block;
+		margin: 10px auto;
 	}
+
 	.page-2 h1,.page-3 h1 {
 		font-size: 30px;
 	}
+	
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.xs, .sm, .lg {display:none;}
