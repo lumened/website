@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="Prakash Paudel and Henry Harboe">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 
     <title>LumenEd | Home</title>
@@ -24,196 +24,116 @@
     <![endif]-->
 
     <!-- Custom styles for this template -->
-    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/stylesheet.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
+		<nav class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						<img src="" alt="Logo">
+					</a>
+				</div>
 
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">LumenEd</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-               <!--  <li><a href="#contact">Contact</a></li> -->
-                <!-- <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li> -->
-              </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"> </li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-			<img src="img/background.jpg" class="backgroundslide img-responsive">
-            <div class = "parent1">
-				<img src="img/logo.png" class="logo">
-				<div class="video-container"><iframe id="iframe" src="http://www.youtube.com/embed/1t6uEK08vuA?rel=0" frameborder="0" allowfullscreen=""></iframe></div></div>
-			<div class="container">
-				<div class="carousel-caption">
-					<h1>LumenEd</h1>
-					<p class="onlyBig">Taking Education Places</p>
-					<p class="onlySmall">Providing an integrated education solution to underprivileged communities</p>
-					<p><a class="btn btn-lg btn-primary" href="about.html#section3" role="button">Contact Us</a></p>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="http://blog.lumened.org">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				</div><!-- /.navbar-collapse -->
+			</div><!-- /.container-fluid -->
+		</nav>
+		
+		<!-- Pages
+		================================================== -->
+		<!-- Cover Page -->
+		<div class="container-fluid cover-page row">
+				<img src="img/joanna_cover.jpg" alt="Cover Photo" class="img-responsive">
+				<div class="col-xs-12">
+				<!-- Information box with user input field-->
+					<!-- When screen size is small(sm), medium(md) or large(lg)-->
+					<div class="info-box sm md lg">
+						<h3>Connecting students around the world.</h3>
+						<h3>One classroom at a time.</h3>
+						<div class="container">
+							<div class="input-group input-group-md">
+								<input type="text" class="form-control" placeholder="Email">
+							</div>
+							<a class="btn btn-primary btn-md" role="button">Get involved</a>
+						</div>
+					</div>
+				</div>
+		</div>
+		
+		<!-- Page 2 -->
+		<div class="container-fluid page-2">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>We're providing underprivileged schools educational resources and a global communication network through digital technology</h1>
 				</div>
 			</div>
-        </div>
-        <div class="item">
-          <img src="img/render_front.png" alt="Second Slide" class="img-responsive">          
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Our Device</h1>
-              <p>A projector, pc and camera. Affordable, sustainable and portable.</p>
-              <p><a class="btn btn-lg btn-primary" href="#section1" role="button">Learn more</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img src="img/pilot_program.jpg" alt="Third Slide" class="img-responsive">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>The Program</h1>
-              <p>Empowering teachers through access to quality educational content</p>
-              <p><a class="btn btn-lg btn-primary" href="about.html" role="button">About Us</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
-
-
-
-    <!-- Marketing messaging and featurettes
-    ================================================== -->
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/sprite_tech.png" alt="Generic placeholder image">
-          <h2>Technology that works anywhere.</h2>
-          <p></p>
-          <p><a class="btn btn-default" href="#section1" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/sprite_content.png" alt="Generic placeholder image">
-          <h2>Tailored educational content.</h2>
-          <p></p>
-          <p><a class="btn btn-default" href="#section2" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="img/sprite_network.png" alt="Generic placeholder image">
-          <h2>Connecting educators, globally.</h2>
-          <p></p>
-          <p><a class="btn btn-default" href="#section3" role="button">View details &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-
-
-      <!-- START THE FEATURETTES -->
-
-      <hr class="featurette-divider">
-      <a name="section1" ></a>
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Accessible technology<br><span class="text-muted">Designed to work anywhere</span></h2>
-          <p class="lead">LumenEd's device transcends three of the traditional barriers to technology-assisted teaching: electricity, internet and cost. By providing a solution that works independently of an external power source and with preloaded educational content, we make remote locations accessible. A single device per classroom ensures that the cost of implementation is minimal compared to other initiatives, which attempt to provide students with individual devices.<br><br>Our prototype combines a projector, mini-PC, and speakers to display audiovisual content in a classroom. An inbuilt camera and microphone allow schools and communities to record video. The included battery runs for 2 hours on a charge, and is replenished using a solar panel attachment. Content is stored on swappable thumb drives that are exchanged using India's reputable postal service. Finally, a custom-designed software is intuitive, supports local languages, and designed for ease-of-use.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive featuretteBig" src="img/doublerender.jpg" alt="Generic placeholder image" style="margin-top:40px">
-          <img class="featurette-image img-responsive featuretteSmall" src="img/render_resize.png" alt="Generic placeholder image">
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-2">
+					<img src="img/Blog oval.png" alt="Blog Oval">
+				</div>
+				<div class="col-sm-2">
+					<a class="btn btn-primary btn-md" role="button">Follow the Blog</a>
+				</div>
+			</div>
 		</div>
-      </div>
-      
-      <a name="section2" ></a>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive featuretteBig" src="img/interface.jpg" alt="Generic placeholder image" style="top: 200px">
-        </div>
-        <div class="col-md-7">
-          <h2 class="featurette-heading">Education schools need<br><span class="text-muted">In languages they understand</span></h2>
-          <p class="lead">LumenEd offers open-source digital educational content in a variety of languages, to ensure that languages in every region are covered. We work with teachers to provide content that is best suited for each location. We also offer interactive demonstrations using waste or recycled materials that allow students to visualize concepts better, and to participate more actively in classroom activities.</p>
-        </div>
-		<div class="col-md-5">
-          <img class="featurette-image img-responsive featuretteSmall" src="img/interface.jpg" alt="Generic placeholder image" style="top: 200px">
-        </div>
-      </div>
-      <a name="section3" ></a>
-      <hr class="featurette-divider">
-      <div class="row featurette">
-        <div class="col-md-7">
-          <h2 class="featurette-heading">A global network of schools<br><span class="text-muted">For more diverse learning</span></h2>
-          <p class="lead">We connect educators from around the world, attempting to bring together the best to tackle the education problems in India. We empower teachers through access to high-quality digital content and a network of fellow educators. We allow communities from around the world to share their stories, and to hear stories told by others. Our pen pals program allows children in schools from across the world to send recordings to each other, without needing internet access.</p>
-        </div>
-        <div class="col-md-5">
-          <img class="featurette-image img-responsive featuretteBig" src="img/india_satellite.gif" alt="Generic placeholder image">
-        </div>
-		<div class="col-md-5">
-          <img class="featurette-image img-responsive featuretteSmall" src="img/india_satellite.gif" alt="Generic placeholder image">
-        </div>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2014 LumenEd, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-
-    </div><!-- /.container -->
+		
+		<!-- Page 3 -->
+		<div class="container-fluid page-3">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>We accomplish this through our video pen pal program, a unique device, and specialized educational content</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<h2>Program</h2>
+					<img src="img/Program mask.png" alt="Program Mask" class="img-responsive">
+				</div>
+				<div class="col-sm-4">
+					<h2>Device</h2>
+					<img src="img/Device mask.png" alt="Device mask" class="img-responsive">
+				</div>
+				<div class="col-sm-4">
+					<h2>Content</h2>
+					<img src="img/Partners mask.png" alt="Partners mask" class="img-responsive">
+				</div>
+			</div>
+		</div>
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/carousel.js"></script>
 	<!-- <script src="../../dist/js/bootstrap.min.js"></script> -->
     <!-- <script src="../../assets/js/docs.min.js"></script> -->
+	<!-- <script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	ga('create', 'UA-50216340-1', 'lumened.org');
+	ga('send', 'pageview');
+	</script> -->
+	
   </body>
 </html>
