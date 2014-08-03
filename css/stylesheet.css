@@ -8,6 +8,10 @@ body,h1,h2,h3,h4,h5,h6,p {
 	font-weight: 300;
 }
 
+.info-box h1, .page-7 h1, .page-8 h1, .page-9 h1 {
+	font-weight:400;
+}
+
 
 /* Navbar
 -----------------*/
