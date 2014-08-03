@@ -2,7 +2,7 @@
 -----------------*/
 /*font settings
 ------------------
-Default is lato light. To use lato normal change font-weight to 400.*/
+Default is lato light(weight 300). To use lato normal change font-weight to 400.*/
 body,h1,h2,h3,h4,h5,h6,p {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
@@ -11,7 +11,6 @@ body,h1,h2,h3,h4,h5,h6,p {
 .info-box h1, .page-7 h1, .page-8 h1, .page-9 h1 {
 	font-weight:400;
 }
-
 
 /* Navbar
 -----------------*/
@@ -173,14 +172,21 @@ footer{
 		width: 130px;
 	}
 	/*Page 2*/
-	.page-2 img{
+/* 	.page-2 img{
 		float: none;
 		display:block;
 		margin: auto auto;
 	}
 	.page-2 .btn {
-		display:block;
 		margin: 10px auto;
+	} */
+	
+	.page-2 img {
+		float:right;
+	}
+	.page-2 .btn {
+		margin: 52px 0px;
+		float:left;
 	}
 
 	.page-2 h1,.page-3 h1, .page-5 h1, .page-8 h1 {
@@ -398,3 +404,5 @@ footer{
 		margin-right: 15%;
 	}
 }
+
+
