@@ -1,6 +1,16 @@
 /* Global CSS
 -----------------*/
+/*font settings
+------------------
+Default is lato light. To use lato normal change font-weight to 400.*/
+body,h1,h2,h3,h4,h5,h6,p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
 
+.info-box h1, .page-7 h1, .page-8 h1, .page-9 h1 {
+	font-weight:400;
+}
 
 
 /* Navbar
@@ -27,15 +37,15 @@
 
 /* Page 2
 ----------------*/
-.page-2, .page-5{
+.page-2, .page-5, .page-7, .page-9{
 	margin: 60px auto;
 }
 
 .page-5{
 	margin-bottom: 0px;
-	}
+}
 
-.page-2 h1, .page-5 h1 {
+.page-2 h1, .page-5 h1, .page-7 h1, .page-9 h1{
 	text-align: center;
 	color:rgba(126,157,228,1);
 	margin-bottom: 60px;
@@ -43,33 +53,78 @@
 
 .page-2 img {
 	float:right;
-	}
-
+}
+	
 /* Page 3
 ----------------*/
-.page-3 {
+.page-3, .page-8 {
 	background-color:rgba(126,157,228,1);
 	padding: 60px 0px;
 }
-.page-3 h1 {
+.page-3 h1, .page-8 h1 {
 	text-align: center;
 	color: white;
 	margin: 0px 30px 30px 30px;
 }
 
-.page-3 h2 {
+.page-3 h2, .page-8 h2 {
 	text-align: center;
 	color: white;
 	margin: 30px auto 30px auto;
 }
 
-.page-3 img{
+.page-3 img, .page-8 img{
 	display:block;
 	margin: auto auto;
 }
 
+/*page-7*/
+.page-7 img {
+	display: block;
+	margin: 30px auto;
+}
+	
+.page-7 .col-xs-12 h2{
+	text-align: center;
+	margin: 30px 30px;
+}
 
+.page-7 h2, .page-9 h2{
+	color: rgba(126,157,228,1);
+	margin-left: 30px;
+}
 
+.page-7 h1, .page-9 h1{
+	margin: 0px auto 30px auto;
+}
+
+/*page-8*/
+.page-8 p{
+	text-align: center;
+	color: white;
+	font-size:24px;
+	margin: 0px 10%;
+}
+
+.page-8 h1{
+	margin-bottom: 0px;
+}
+
+.page-8 .row{
+	margin-bottom: 50px;
+}
+
+/*page-9*/
+.page-9 h2{
+	margin: 0px auto 30px auto;
+	text-align: center;
+}
+
+/*Footer
+---------*/
+footer{
+	margin: auto 30px;
+}
 
 
 /*Screen size specific CSS
@@ -128,7 +183,7 @@
 		margin: 10px auto;
 	}
 
-	.page-2 h1,.page-3 h1, .page-5 h1 {
+	.page-2 h1,.page-3 h1, .page-5 h1, .page-8 h1 {
 		font-size: 30px;
 	}
 
@@ -160,9 +215,18 @@
 	.page-6 .info-box {
 		margin-left: auto;
 		margin-right: 40px;
-	}	
+	}
+	
+	/*Page-8*/
+	.page-8 .col-sm-4 {
+		margin-bottom: 15px;
+	}
+	.page-8 .row:nth-child(4){
+		display: none;
+	}
 	
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.xs, .sm, .lg {display:none;}
 	.md{display:block;}
@@ -326,8 +390,6 @@
 		margin-right: 40px;
 	}
 	
-	
-	
 }
 /*Special extralarge desktop case */
 @media (min-width: 1200px) {
@@ -336,5 +398,3 @@
 		margin-right: 15%;
 	}
 }
-
-
