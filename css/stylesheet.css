@@ -3,7 +3,7 @@
 /*font settings
 ------------------
 Default is lato light. To use lato normal change font-weight to 400.*/
-h1,h2,h3,h4,h5,h6,p {
+body,h1,h2,h3,h4,h5,h6,p {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 }
