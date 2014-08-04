@@ -20,10 +20,31 @@ body,h1,h2,h3,h4,h5,h6,p {
 	/*color: rgba(254,201,15,1);*/
 	}
 
+ul {
+    padding-right: 10px;
+}
+
+.navbar li a:link, .navbar li a:visited {
+    color: rgba(247,192,66,1);
+    font-weight: 400;
+}
+
+.logo {
+    max-width: 155px;
+    height: auto;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-top: -6px;
+}
+
 /* Cover Page
 ----------------*/	
-.cover-page, .picture-panel{
-	position: relative;
+.cover-page {
+    background-color: rgba(247,148,29,1);
+}
+
+.cover-page .picture-panel {
+    background-color: rgba(247,148,29,1);
 }
 
 .cover-page  > .col-xs-12, .picture-panel > .col-xs-12{
@@ -32,6 +53,11 @@ body,h1,h2,h3,h4,h5,h6,p {
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+
+h3 {
+    font-weight: 300;
+    color: #000000;
 }
 
 /* Page 2
@@ -44,6 +70,10 @@ body,h1,h2,h3,h4,h5,h6,p {
 	margin-bottom: 0px;
 }
 
+.col-xs-12 h1 {
+    font-size: ;
+}
+
 .page-2 h1, .page-5 h1, .page-7 h1, .page-9 h1{
 	text-align: center;
 	color:rgba(126,157,228,1);
@@ -52,8 +82,13 @@ body,h1,h2,h3,h4,h5,h6,p {
 
 .page-2 img {
 	float:right;
+    max-width: 150px;
 }
-	
+
+.page-2 .btn {
+    vertical-align: middle;
+}
+
 /* Page 3
 ----------------*/
 .page-3, .page-8 {
@@ -69,7 +104,12 @@ body,h1,h2,h3,h4,h5,h6,p {
 .page-3 h2, .page-8 h2 {
 	text-align: center;
 	color: white;
+    font-size: 24px;
 	margin: 30px auto 30px auto;
+}
+
+.page-3 h2 a:hover {
+    color: #000000;
 }
 
 .page-3 img, .page-8 img{
@@ -197,7 +237,7 @@ footer{
 	.info-box {
 		background-color:rgba(0,0,0,.6);
 		float: none;
-		margin: 6% auto 30px 30px;
+		margin: 6% auto 30px 350px;
 		border-radius: 10px;
 		width: 330px;
 		height: 370px;
@@ -285,7 +325,7 @@ footer{
 	.info-box {
 		background-color:rgba(0,0,0,.6);
 		float: none;
-		margin: 50px auto 60px 40px;
+		margin: 50px auto 60px 340px;
 		border-radius: 10px;
 		width: 300px;
 		height: 480px;
@@ -366,7 +406,8 @@ footer{
 		float:left;
 	}
 	/*info box*/
-	.info-box {
+    
+    .info-box {
 		background-color:rgba(0,0,0,.6);
 		float: none;
 		margin: 8% auto 60px 40px;
