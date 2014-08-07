@@ -50,9 +50,8 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
 					<li><a href="http://blog.lumened.org" target="_blank">Blog</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#contact">Contact</a></li>
 				</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
@@ -70,22 +69,8 @@
 						<h3>Connecting students around the world</h3>
 						<h3>One classroom at a time</h3>
 						<div class="container">
-							<!-- <div class="dropdown">
-								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
-									Select one
-									<span class="caret"></span>
-								</button>
-								<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Teacher</a></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">School</a></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Organization</a></li>
-									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Individual</a></li>
-								</ul>
-							</div> -->
-							<div class="input-group input-group-md">
-								<input type="text" class="form-control" placeholder="Email">
-							</div>
-							<a class="btn btn-primary btn-md" role="button">Get involved</a>
+							<a href="#contact" class="btn btn-primary btn-md xs sm md" role="button">Get involved</a>
+							<a href="#contact" class="btn btn-primary btn-lg lg" role="button">Get involved</a>
 						</div>
 					</div>
 				</div>
@@ -102,10 +87,10 @@
 			</div>
 			<div class="row">
 				<div class="col-xs-4 col-xs-offset-2">
-					<img src="img/blog_circle.png" alt="Blog Oval">
+					<a href="http://blog.lumened.org"><img src="img/blog_circle.png" alt="Blog Oval"></a>
 				</div>
 				<div class="col-xs-2">
-					<a class="btn btn-primary btn-md" role="button" id="blogbutton" a href="http://blog.lumened.org" target="_blank">Follow the Blog</a>
+					<a class="btn btn-primary btn-md" role="button" id="blogbutton" href="http://blog.lumened.org" target="_blank">Follow the Blog</a>
 				</div>
 			</div>
 		</div>
@@ -118,23 +103,23 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4">
-					<a href="#Program"><h2>Pen pal program</h2></a>
-					<img src="img/Program mask.png" alt="Program Mask" class="img-responsive">
-				</div>
-				<div class="col-sm-4">
-					<a href="#Device"><h2>Device</h2></a>
+				<a href="#device"><div class="col-sm-4">
+					<h2>Device</h2>
 					<img src="img/Device mask.png" alt="Device mask" class="img-responsive">
-				</div>
-				<div class="col-sm-4">
-					<a href="#Content"><h2>Content</h2></a>
+				</div></a>
+				<a href="#content"><div class="col-sm-4">
+					<h2>Content</h2>
 					<img src="img/Partners mask.png" alt="Partners mask" class="img-responsive">
-				</div>
+				</div></a>
+				<a href="#program"><div class="col-sm-4">
+					<h2>Pen pal program</h2>
+					<img src="img/Program mask.png" alt="Program Mask" class="img-responsive">
+				</div></a>
 			</div>
 		</div>
 		
 		<!-- Page 6 -->
-		<div class="container-fluid row picture-panel page-6">
+		<div id="device" class="container-fluid row picture-panel page-6">
 			<img src="img/device_panel2.jpg" alt="Box Photo" class="img-responsive">
 			<div class="col-xs-12">
 			<!-- Info Box-->
@@ -147,7 +132,7 @@
 			</div>
 		</div>
 		
-		<!-- Page 2 -->
+		<!-- Page 11 -->
 		<div class="container-fluid page-11">
 			<div class="row">
 				<div class="col-xs-12">
@@ -158,7 +143,7 @@
 		
 		
 		<!-- Page 4 -->
-		<div class="container-fluid row picture-panel page-4">
+		<div id="content" class="container-fluid row picture-panel page-4">
 			<img src="img/anurag.jpg" alt="Content Photo" class="img-responsive">
 			<div class="col-xs-12">
 			<!-- Info Box-->
@@ -207,8 +192,17 @@
 			</div>
 		</div>
 		
+		<!-- Page 12 -->
+		<div class="container-fluid page-12">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>However, technology by itself does not have a lasting impact on learning. Better learning requires effective teaching tools that engage, motivate and inspire.</h1>
+				</div>
+			</div>
+		</div>
+		
 		<!-- Page 10 -->
-		<div class="container-fluid row picture-panel page-10">
+		<div id="program" class="container-fluid row picture-panel page-10">
 			<img src="img/anurag.jpg" alt="Pen Pal Program Photo" class="img-responsive">
 			<div class="col-xs-12">
 			<!-- Info Box-->
@@ -228,11 +222,14 @@
 					<h1>So far, we've made connections between the U.S. and India, and are look for more participants</h1>
 				</div>
 			</div>
+		</div>
+		
+		<!-- Page 13 -->
+		<div class="container-fluid page-13">	
 			<div class="row">
 				<img src="img/map_placeholder.png" alt="Map Placeholder" class="img-responsive">
 			</div>
 		</div>
-		
 		<!-- Page 7 -->
 		<!-- <div class="container-fluid page-7">
 			<div class="row">
@@ -268,7 +265,7 @@
 		</div> -->
 		
 		<!-- Page 9 -->
-		<div class="container-fluid page-9">
+		<div id="contact" class="container-fluid page-9">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>Get Involved</h1>
@@ -280,7 +277,32 @@
 				</div>
 			</div>
 			<div class="row">
-				<!-- <img src="img/interface.png" alt="Map Placeholder" class="img-responsive"> -->
+				<div class="col-xs-12">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Name">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Email">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Subject">
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="input-group">
+						<textarea class="form-control" rows="6" placeholder="Message"></textarea>
+					</div>
+				</div>
 			</div>
 		</div>
 		
