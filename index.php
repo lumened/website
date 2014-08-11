@@ -77,7 +77,7 @@
 		</div>
 		
 		<!-- Page 2 -->
-		<div class="container-fluid page-2">
+		<div class="container-fluid mission">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>We bring better learning to the classroom</br>
@@ -96,7 +96,7 @@
 		</div>
 		
 		<!-- Page 3 -->
-		<div class="container-fluid page-3">
+		<div class="container-fluid summary">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>We provide better learning through tailored educational content, a video pen pal program and a unique device that works anywhere</h1>
@@ -119,7 +119,7 @@
 		</div>
 		
 		<!-- Page 6 -->
-		<div id="device" class="container-fluid row picture-panel page-6">
+		<div id="device" class="container-fluid row picture-panel device">
 			<img src="img/device_panel2.jpg" alt="Box Photo" class="img-responsive">
 			<div class="col-xs-12">
 			<!-- Info Box-->
@@ -133,7 +133,7 @@
 		</div>
 		
 		<!-- Page 11 -->
-		<div class="container-fluid page-11">
+		<div class="container-fluid device-after">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>Technology is only as useful as the teacher makes it in the classroom. We provide effective and targeted teaching tools that inspire students to learn.</h1>
@@ -143,7 +143,7 @@
 		
 		
 		<!-- Page 4 -->
-		<div id="content" class="container-fluid row picture-panel page-4">
+		<div id="content" class="container-fluid row picture-panel content">
 			<img src="img/anurag.jpg" alt="Content Photo" class="img-responsive">
 			<div class="col-xs-12">
 			<!-- Info Box-->
@@ -157,7 +157,7 @@
 		</div>
 		
 		<!-- Page 8 -->
-		<div class="container-fluid page-8">
+		<div class="container-fluid content-after">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>With over 1500 videos sourced from existing open source educators,</br> our content library meets the unique needs of every classroom</h1>
@@ -193,7 +193,7 @@
 		</div>
 		
 		<!-- Page 12 -->
-		<div class="container-fluid page-12">
+		<div class="container-fluid penpal-before">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>Finally, we want students to engage with the world beyond their four walls. Through video conversations, students become aware of the exciting lives their peers lead in distant communities.</h1>
@@ -202,7 +202,7 @@
 		</div>
 		
 		<!-- Page 10 -->
-		<div id="program" class="container-fluid row picture-panel page-10">
+		<div id="program" class="container-fluid row picture-panel penpal">
 			<img src="img/anurag.jpg" alt="Pen Pal Program Photo" class="img-responsive">
 			<div class="col-xs-12">
 			<!-- Info Box-->
@@ -215,7 +215,7 @@
 		</div>
 		
 		<!-- Page 5 -->
-		<div class="container-fluid page-5">
+		<div class="container-fluid penpal-after">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>So far, we've made connections between classrooms in the United States in India. We are always on the lookout for more partners who want to add interdisciplinary depth to their classroom.</h1>
@@ -224,7 +224,7 @@
 		</div>
 		
 		<!-- Page 13 -->
-		<div class="container-fluid page-13 row">
+		<div class="container-fluid map row">
 			<iframe name='iframe1' id="iframe1" src="https://mapsengine.google.com/map/u/1/embed?mid=zkMI_0jUW4lc.k8mGnS5EILbs" width="100%" height="600"></iframe>
 		</div>
 		<!-- Page 7 -->
@@ -262,7 +262,7 @@
 		</div> -->
 		
 		<!-- Page 9 -->
-		<div id="contact" class="container-fluid page-9">
+		<div id="contact" class="container-fluid contact">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>Get Involved</h1>

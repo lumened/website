@@ -1,19 +1,20 @@
 /* Global CSS
 -----------------*/
-/*font settings
-------------------
-Default is lato light(weight 300). To use lato normal change font-weight to 400.*/
 body {
 	overflow-x:hidden;
 }
 
+/*font settings
+------------------
+Default is lato light(weight 300). To use lato normal change font-weight to 400.*/
 body,h1,h2,h3,h4,h5,h6,p {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 }
-.info-box h1, .page-7 h1, .page-9 h1 {
+.info-box h1, .contact h1 {
 	font-weight:400;
 }
+
 /*text*/
 h1,h2,h3 {
 	text-align: center;
@@ -34,15 +35,8 @@ h1,h2,h3 {
 	border-radius: 10px;
 }
 
-/*Map*/
-.page-13 iframe {
-	border:0;
-}
-
-.page-13 iframe #mp-embeded-bar {
-	display:none;
-}
-
+/*Specific component CSS
+----------------*/
 /* Navbar
 -----------------*/
 .navbar {
@@ -66,7 +60,7 @@ h1,h2,h3 {
 	margin-top: -6px;
 }
 
-/* Cover Page
+/* Cover Panel
 ----------------*/	
 .cover-page, .picture-panel{
 	position: relative;
@@ -78,6 +72,7 @@ h1,h2,h3 {
 	top: 0;
 	left: 0;
 }
+
 .cover-caption{
 	background-color:rgba(126,157,228,.75);
 	float: none;
@@ -96,14 +91,61 @@ h1,h2,h3 {
 .cover-caption .container a.btn {
 	margin: 0px auto;
 	width: 150px;
-} 
+}
 
-/* Info-box
+@media (min-width: 480px) and (max-width: 767px) {
+	.cover-caption{
+		margin: 30% auto;
+		width: 440px;
+		height: 130px;
+	}
+	.cover-caption h3{
+		font-size: 18px;
+	}
+	.cover-caption .container {
+		margin: 18px auto;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.cover-caption{
+		margin: 35% auto;
+		width: 440px;
+		height: 130px;
+	}
+	.cover-caption h3{
+		font-size: 18px;
+	}
+	.cover-caption .container {
+		margin: 20px auto;
+	}
+}
+@media (min-width: 992px) {
+	.cover-caption{
+		margin: 35% auto;
+		width: 500px;
+		height: 160px;
+	}
+	.cover-caption h3{
+		font-size: 24px;
+	}
+	.cover-caption .container {
+		margin: 20px auto;
+	}
+}
+
+
+/*Picture Panels CSS
 ---------------------*/
-.info-box {
+.picture-panel > .col-xs-12 > .info-box {
 	background-color:rgba(0,0,0,.6);
 	float: none;
 	border-radius: 10px;
+	display:inline-block;
+	vertical-align: middle;
+	text-align: left;
+	font: 1rem/1 'Lato', sans-serif; /* <-- Reset the font */
+	margin-left: auto;
+	margin-right: 30px;
 }
 .info-box h1{
 	color: rgba(243,151,24,1);
@@ -113,28 +155,155 @@ h1,h2,h3 {
 	color: rgba(243,151,24,1);
 }
 
-/* Page 2,5,7,9
+.picture-panel > .col-xs-12 {
+	font:0/0 a;
+	text-align: right;
+}
+.picture-panel > .col-xs-12:before {
+	content: ' ';
+	display: inline-block;
+	vertical-align:middle;
+	height: 100%;
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	.info-box {
+	width: 300px;
+	padding: 10px 20px;
+	}
+	.info-box h1{
+		margin: 10px auto 10px auto;
+		font-size: 24px;
+	}
+	.info-box p{
+		font-size: 16px;
+		margin: 0px 0px 10px 0px;
+	}
+	.info-box .button-div {
+		margin: 0px 105px;
+	}
+	.device .info-box{
+		width:;
+		hieght:;
+	}
+	.content .info-box{
+		width:;
+		height:;
+	}
+	.penpal .info-box{
+		width:;
+		height:;
+	}
+	.device .info-box{
+		height:400px;
+	}
+	.content .info-box{
+		height:360px;
+	}
+	.penpal .info-box{
+		height:350px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.info-box {
+		width: 300px;
+		padding: 10px 20px;
+	}
+	.info-box h1{
+		margin: 10px auto 20px auto;
+		font-size: 30px;
+	}
+	.info-box p{
+		font-size: 17px;
+		margin: 0px 0px 20px 0px;
+	}
+	.info-box .button-div {
+		margin: 30px 70px;
+	}
+	.device .info-box{
+		height:400px;
+	}
+	.content .info-box{
+		height:360px;
+	}
+	.penpal .info-box{
+		height:350px;
+	}
+}
+
+@media (min-width: 992px) {
+	.info-box {
+		width:360px;
+		padding: 20px 30px;
+	}
+	.info-box h1{
+		margin: 10px auto 40px auto;
+		font-size: 36px;
+	}
+	.info-box p{
+		font-size: 20px;
+		margin: 0px 0px 30px 0px;
+	}
+	.info-box .button-div {
+		margin: 30px 90px;
+	}
+	.device .info-box{
+		height:500px;
+	}
+	.content .info-box{
+		height:460px;
+	}
+	.penpal .info-box{
+		height:430px;
+	}
+}
+
+
+/* blue text on white background panels css
 ----------------*/
-.page-2, .page-7, .page-9, .page-11, .page-12{
+.mission, .page-7, .contact, .device-after, .penpal-before{
 	margin: 60px auto;
 }
-.page-2 h1, .page-7 h1, .page-9 h1, .page-11, .page-12{
+.mission h1, .page-7 h1, .contact h1, .device-after, .penpal-before{
 	color:rgba(126,157,228,1);
 	margin-bottom: 60px;
 }
-.page-2 img {
+@media (min-width: 992px) {
+	.mission h1, .device-after h1, .penpal-before h1, .penpal-after h1{
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+}
+@media (min-width: 1200px) {
+	.mission h1, .device-after h1, .penpal-before h1, .penpal-after h1{
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+}
+.page-7 h2, .contact h2, .contact h3{
+	color: rgba(126,157,228,1);
+	margin-left: 30px;
+}
+.page-7 h1, .contact h1, .contact h2{
+	margin: 0px auto 30px auto;
+}
+
+/*mission panel*/
+.mission img {
 	float:right;
 	max-width: 150px;
 }
-
-.page-2 img:hover {
+.mission img:hover {
 	opacity: 0.7;
 }
-
-.page-2 .btn {
+.mission .btn {
 	margin: 52px 20px;
 	float:left;
 }
+
+
+/*device specs panel*/
 .page-7 img {
 	display: block;
 	margin: 30px auto;
@@ -143,51 +312,57 @@ h1,h2,h3 {
 	text-align: center;
 	margin: 30px 30px;
 }
-.page-7 h2, .page-9 h2, .page-9 h3{
-	color: rgba(126,157,228,1);
-	margin-left: 30px;
-}
-.page-7 h1, .page-9 h1, .page-9 h2{
-	margin: 0px auto 30px auto;
-}
-/*page 9 contact form*/
-.page-9 .input-group {
+
+
+/*contact*/
+.contact .input-group {
 	width: 50%;
 	margin: 20px auto;
 	display: block
 }
-.page-9 .btn {
+.contact .btn {
 	margin: 20px auto;
 	width: 200px;
 }
 
-/* Page 3,8,5
+/* White text on Blue Background CSS
 ----------------*/
-.page-3, .page-8, .page-5 {
+.summary, .content-after, .penpal-after {
 	background-color:rgba(126,157,228,1);
 	padding: 60px 0px;
 }
-.page-3 h1, .page-3 h2, .page-8 h1, .page-8 h2, .page-8 p, .page-5 h1{
+.summary h1, .summary h2, .content-after h1, .content-after h2, .content-after p, .penpal-after h1{
 	color: white;
 }
-.page-3 h1, .page-8 h1, .page-5 h1 {
+.summary h1, .content-after h1, .penpal-after h1 {
 	margin: 0px 30px 50px 30px;
 }
-.page-3 h2, .page-8 h2{
+.summary h2, .content-after h2{
 	font-size: 24px;
 	margin: 0px auto 30px auto;
 }
-.page-3 img, .page-8 img{
+.summary img, .content-after img{
 	display:block;
 	margin: auto auto;
 }
-.page-3 img:hover {
+
+/*adjustments for individual white on blue panels*/
+.summary img:hover {
 	opacity: .7;
 }
-.page-8 .row:nth-child(3){
+.content-after .row:nth-child(3){
 	margin: 30px auto;
 }
-.page-5 h1{
+@media (min-width: 480px) and (max-width: 767px) {
+	.content-after .col-sm-4 {
+		margin-bottom: 30px;
+	}
+	.content-after .row:nth-child(3){
+		display: none;
+	}
+}
+
+.penpal-after h1{
 	margin-bottom: 0px;
 }
 
@@ -207,135 +382,17 @@ footer{
 	.xs, .md, .lg {display:none;}
 	.sm{display:block;}
 	
-	/*cover-caption CSS*/
-	.cover-caption{
-		margin: 30% auto;
-		width: 440px;
-		height: 130px;
-	}
-	.cover-caption h3{
-		font-size: 18px;
-	}
-	.cover-caption .container {
-		margin: 18px auto;
-	}
-	
-	/*info-box*/
-	.info-box {
-		margin: 6% 30px 30px auto;
-		width: 330px;
-		height: 370px;
-		padding: 10px 20px;
-	}
-	.info-box h1{
-		margin: 10px auto 10px auto;
-		font-size: 24px;
-	}
-	.info-box p{
-		font-size: 16px;
-		margin: 0px 0px 10px 0px;
-	}
-	.info-box .button-div {
-		margin: 0px 105px;
-	}
-	
-	/*panel heading*/
-	.page-2 h1,.page-3 h1, .page-4 h1, .page-5, .page-6 h1,
-	.page-7 h1, .page-8 h1, .page-9 h1, .page-10 h1, .page-11 h1, .page-12 h1{
+	/*panel headings*/
+	.mission h1,.summary h1, .content h1, .penpal-after, .device h1,
+	.page-7 h1, .content-after h1, .contact h1, .penpal h1, .device-after h1, .penpal-before h1{
 		font-size: 30px;
 	}
-
-	/*Page-8*/
-	.page-8 .col-sm-4 {
-		margin-bottom: 30px;
-	}
-	.page-8 .row:nth-child(3){
-		display: none;
-	}
 }
-
 @media (min-width: 768px) and (max-width: 991px) {
 	.xs, .sm, .lg {display:none;}
 	.md{display:block;}
-	
-	/*cover-caption CSS*/
-	.cover-caption{
-		margin: 35% auto;
-		width: 440px;
-		height: 130px;
-	}
-	.cover-caption h3{
-		font-size: 18px;
-	}
-	.cover-caption .container {
-		margin: 20px auto;
-	}
-	
-	/*info-box */
-	.info-box {
-		margin: 50px 40px 60px auto;
-		width: 300px;
-		height: 480px;
-		padding: 20px 30px;
-	}
-	.info-box h1{
-		margin: 10px auto 20px auto;
-		font-size: 30px;
-	}
-	.info-box p{
-		font-size: 17px;
-		margin: 0px 0px 20px 0px;
-	}
-	.info-box .button-div {
-		margin: 30px 70px;
-	}
 }
 @media (min-width: 992px) {
 	.xs, .sm, .md {display:none;}
 	.lg{display:block;}
-	
-	/*cover-caption CSS*/
-	.cover-caption{
-		margin: 35% auto;
-		width: 500px;
-		height: 160px;
-	}
-	.cover-caption h3{
-		font-size: 24px;
-	}
-	.cover-caption .container {
-		margin: 20px auto;
-	}
-	
-	/*info box*/
-	.info-box {
-		margin: 50px 40px 0px auto;
-		width: 360px;
-		height: 570px;
-		padding: 20px 30px;
-	}
-	.info-box h1{
-		margin: 10px auto 40px auto;
-		font-size: 36px;
-	}
-	.info-box p{
-		font-size: 20px;
-		margin: 0px 0px 30px 0px;
-	}
-	.info-box .button-div {
-		margin: 30px 90px;
-	}
-	
-	/*Page 2 */
-	.page-2 h1, .page-11 h1, .page-12 h1, .page-5 h1{
-		margin-left: 12%;
-		margin-right: 12%;
-	}
-}
-/*Special extra-large desktop case */
-@media (min-width: 1200px) {
-	.page-2 h1, .page-11 h1, .page-12 h1, .page-5 h1{
-		margin-left: 15%;
-		margin-right: 15%;
-	}
 }
