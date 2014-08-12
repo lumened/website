@@ -52,6 +52,14 @@
 					<li><a href="#">Home</a></li>
 					<li><a href="http://blog.lumened.org" target="_blank">Blog</a></li>
 					<li><a href="#contact">Contact</a></li>
+					<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="device.html">Device</a></li>
+                <li><a href="#">Content</a></li>
+                <li><a href="#">Pen Pal Program</a></li>
+              </ul>
+            </li>
 				</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
@@ -127,7 +135,7 @@
 					<h1>The Box</h1>
 					<p>Our solution centers around a device that integrates a projector, PC and video camera. It serves as a multimedia device to play audiovisual content to an entire classroom.</p>
 					<p>Powered by a solar-charged battery, each device is capable of operating without electricity or internet access. Its portability, simplicity and ruggedness guarantees the device can be used by anyone, anywhere.</p>
-					<div class="button-div"><a class="btn btn-primary btn-md" role="button">Learn more</a></div>
+					<div class="button-div"><a class="btn btn-primary btn-md" role="button" href="device.html">Learn more</a></div>
 				</div>
 			</div>
 		</div>

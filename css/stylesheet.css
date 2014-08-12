@@ -47,11 +47,29 @@ h1,h2,h3 {
 .navbar ul {
    padding-right: 10px;
 }
-.navbar li a:link, .navbar li a:visited {
-   color: rgba(247,192,66,1);
+.navbar li a:link, .navbar li a:visited{
+   background-color: rgba(247,148,29,1);
+	 color: rgba(247,192,66,1);
    font-weight: 400;
 	 font-size: 18px;
 }
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus{
+	background-color: rgba(247,148,29,1);
+	border-color: rgba(247,192,66,1);
+}
+
+.navbar .navbar-toggle:hover, .navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{
+	background-color: rgba(247,192,66,1);
+}
+
+.navbar .dropdown-menu{
+	background-color: rgba(247,148,29,1);
+	border: 0px
+}
+
 .navbar .logo {
 	max-width: 155px;
 	height: auto;
@@ -172,7 +190,7 @@ h1,h2,h3 {
 	padding: 10px 20px;
 	}
 	.info-box h1{
-		margin: 10px auto 10px auto;
+		margin: 0px auto 10px auto;
 		font-size: 24px;
 	}
 	.info-box p{
@@ -180,28 +198,16 @@ h1,h2,h3 {
 		margin: 0px 0px 10px 0px;
 	}
 	.info-box .button-div {
-		margin: 0px 105px;
+		margin: 20px 82.5px;
 	}
 	.device .info-box{
-		width:;
-		hieght:;
+		height:300px;
 	}
 	.content .info-box{
-		width:;
-		height:;
+		height:290px;
 	}
 	.penpal .info-box{
-		width:;
-		height:;
-	}
-	.device .info-box{
-		height:400px;
-	}
-	.content .info-box{
-		height:360px;
-	}
-	.penpal .info-box{
-		height:350px;
+		height:290px;
 	}
 }
 
@@ -219,7 +225,7 @@ h1,h2,h3 {
 		margin: 0px 0px 20px 0px;
 	}
 	.info-box .button-div {
-		margin: 30px 70px;
+		margin: 30px 82.5px;
 	}
 	.device .info-box{
 		height:400px;
@@ -246,7 +252,7 @@ h1,h2,h3 {
 		margin: 0px 0px 30px 0px;
 	}
 	.info-box .button-div {
-		margin: 30px 90px;
+		margin: 30px 102.5px;
 	}
 	.device .info-box{
 		height:500px;
@@ -365,6 +371,31 @@ h1,h2,h3 {
 .penpal-after h1{
 	margin-bottom: 0px;
 }
+
+/*Learn More Pages
+---------------------------------------------------*/
+.device-more{
+	background-color:rgba(126,157,228,1);
+}
+.device-more .row{
+	margin: 30px 5%;
+}
+.device-more h2, .device-more h4{
+	color:white;
+}
+@media (min-width: 992px) {
+	.device-more .row{
+		margin-left: 12%;
+		margin-right: 12%;
+	}
+}
+@media (min-width: 1200px) {
+	.device-more .row{
+		margin-left: 15%;
+		margin-right: 15%;
+	}
+}
+
 
 /*Footer
 --------------------*/
