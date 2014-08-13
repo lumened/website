@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Prakash Paudel and Henry Harboe">
-		<link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+		<link rel="shortcut icon" href="img/logo.jpg">
 		<!--Font link via google fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 		
@@ -73,7 +73,7 @@
 				<div class="col-xs-12">
 				<!-- cover page caption box with user input field-->
 					<!-- When screen size is small(sm), medium(md) or large(lg)-->
-					<div class="cover-caption sm md lg">
+					<div class="cover-caption">
 						<h3>Connecting students around the world</h3>
 						<h3>One classroom at a time</h3>
 						<div class="container">
@@ -93,11 +93,21 @@
 							that brings communities together</h1>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row sm md lg">
 				<div class="col-xs-4 col-xs-offset-2">
 					<a href="http://blog.lumened.org"><img src="img/blog_circle.png" alt="Blog Oval"></a>
 				</div>
 				<div class="col-xs-2">
+					<a class="btn btn-primary btn-md" role="button" id="blogbutton" href="http://blog.lumened.org" target="_blank">Follow the Blog</a>
+				</div>
+			</div>
+			<div class="row xs">
+				<div class="col-xs-12">
+					<a href="http://blog.lumened.org"><img src="img/blog_circle.png" alt="Blog Oval"></a>
+				</div>
+			</div>
+			<div class="row xs">
+				<div class="col-xs-12">
 					<a class="btn btn-primary btn-md" role="button" id="blogbutton" href="http://blog.lumened.org" target="_blank">Follow the Blog</a>
 				</div>
 			</div>
