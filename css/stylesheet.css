@@ -398,6 +398,10 @@ h1,h2,h3 {
 	.content-after .row:nth-child(3){
 		display: none;
 	}
+	.summary .row:nth-child(2), .summary .row:nth-child(3),
+	.summary .row:nth-child(4) {
+		display:none;
+	}
 }
 
 .penpal-after h1{
@@ -460,6 +464,14 @@ h1,h2,h3 {
 	margin: 30px auto;
 	width: 127px;
 }
+
+/*map
+----------------*/
+@media (min-width: 480px) and (max-width: 767px) {
+	.map iframe {
+		height: 400px;
+}
+
 
 
 /*Footer

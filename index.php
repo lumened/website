@@ -84,7 +84,6 @@
 				</div>
 		</div>
 		
-		<!-- Page 2 -->
 		<div class="container-fluid mission">
 			<div class="row">
 				<div class="col-xs-12">
@@ -113,7 +112,6 @@
 			</div>
 		</div>
 		
-		<!-- Page 3 -->
 		<div class="container-fluid summary">
 			<div class="row">
 				<div class="col-xs-12">
@@ -136,7 +134,6 @@
 			</div>
 		</div>
 		
-		<!-- Page 6 -->
 		<div id="device" class="container-fluid row picture-panel device">
 			<img src="img/device_panel2.jpg" alt="Box Photo" class="img-responsive">
 			<div class="col-xs-12">
@@ -150,7 +147,6 @@
 			</div>
 		</div>
 		
-		<!-- Page 11 -->
 		<div class="container-fluid device-after">
 			<div class="row">
 				<div class="col-xs-12">
@@ -160,7 +156,6 @@
 		</div>
 		
 		
-		<!-- Page 4 -->
 		<div id="content" class="container-fluid row picture-panel content">
 			<img src="img/anurag.jpg" alt="Content Photo" class="img-responsive">
 			<div class="col-xs-12">
@@ -219,7 +214,6 @@
 			</div>
 		</div>
 		
-		<!-- Page 10 -->
 		<div id="program" class="container-fluid row picture-panel penpal">
 			<img src="img/anurag.jpg" alt="Pen Pal Program Photo" class="img-responsive">
 			<div class="col-xs-12">
@@ -232,7 +226,6 @@
 			</div>
 		</div>
 		
-		<!-- Page 5 -->
 		<div class="container-fluid penpal-after">
 			<div class="row">
 				<div class="col-xs-12">
@@ -241,45 +234,10 @@
 			</div>
 		</div>
 		
-		<!-- Page 13 -->
 		<div class="container-fluid map row">
 			<iframe name='iframe1' id="iframe1" src="https://mapsengine.google.com/map/u/1/embed?mid=zkMI_0jUW4lc.k8mGnS5EILbs" width="100%" height="600"></iframe>
 		</div>
-		<!-- Page 7 -->
-		<!-- <div class="container-fluid page-7">
-			<div class="row">
-				<div class="col-xs-12">
-					<h1>Features:</h1>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<h2>&bull; Bright Beauty</h2>
-					<h2>&bull; LumenEd(c) Orange</h2>
-					<h2>&bull; Intimate</h2>
-				</div>
-				<div class="col-sm-4">
-					<h2>&bull; Bright Beauty</h2>
-					<h2>&bull; LumenEd(c) Orange</h2>
-					<h2>&bull; Intimate</h2>
-				</div>
-				<div class="col-sm-4">
-					<h2>&bull; Bright Beauty</h2>
-					<h2>&bull; LumenEd(c) Orange</h2>
-					<h2>&bull; Intimate</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 ">
-					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
-				</div>
-			</div>
-			<div class="row">
-				<img src="img/interface.png" alt="Map Placeholder" class="img-responsive">
-			</div>
-		</div> -->
 		
-		<!-- Page 9 -->
 		<div id="contact" class="container-fluid contact">
 			<div class="row">
 				<div class="col-xs-12">
