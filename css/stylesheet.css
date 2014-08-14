@@ -460,7 +460,6 @@ h1,h2,h3 {
 }
 
 .contact-btn {
-	display:block;
 	margin: 30px auto;
 	width: 127px;
 }
@@ -470,6 +469,7 @@ h1,h2,h3 {
 @media (min-width: 480px) and (max-width: 767px) {
 	.map iframe {
 		height: 400px;
+	}
 }
 
 

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Prakash Paudel and Henry Harboe">
-		<link rel="shortcut icon" href="img/logo.jpg">
+		<link rel="shortcut icon" href="../../assets/ico/favicon.ico">
 		<!--Font link via google fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 		
@@ -50,41 +50,48 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
 					<li><a href="http://blog.lumened.org" target="_blank">Blog</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="device.html">Device</a></li>
-                <li><a href="#">Content</a></li>
-                <li><a href="#">Pen Pal Program</a></li>
-              </ul>
-            </li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 				</div><!-- /.navbar-collapse -->
 			</div><!-- /.container-fluid -->
 		</nav>
 		
-		<!-- Pages
-		================================================== -->
+		<!-- Pages ================================================== -->
 		<!-- Cover Page -->
 		<div class="container-fluid cover-page row">
 				<img src="img/joanna_cover.jpg" alt="Cover Photo" class="img-responsive">
 				<div class="col-xs-12">
 				<!-- cover page caption box with user input field-->
 					<!-- When screen size is small(sm), medium(md) or large(lg)-->
-					<div class="cover-caption">
+					<div class="cover-caption sm md lg">
 						<h3>Connecting students around the world</h3>
 						<h3>One classroom at a time</h3>
 						<div class="container">
-							<a href="#contact" class="btn btn-primary btn-md xs sm md" role="button">Get involved</a>
-							<a href="#contact" class="btn btn-primary btn-lg lg" role="button">Get involved</a>
+							<!-- <div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+									Select one
+									<span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Teacher</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">School</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Organization</a></li>
+									<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Individual</a></li>
+								</ul>
+							</div> -->
+							<div class="input-group input-group-md">
+								<input type="text" class="form-control" placeholder="Email">
+							</div>
+							<a class="btn btn-primary btn-md" role="button">Get involved</a>
 						</div>
 					</div>
 				</div>
 		</div>
 		
-		<div class="container-fluid mission">
+		<!-- Page 2 -->
+		<div class="container-fluid page-2">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>We bring better learning to the classroom</br>
@@ -92,88 +99,84 @@
 							that brings communities together</h1>
 				</div>
 			</div>
-			<div class="row sm md lg">
+			<div class="row">
 				<div class="col-xs-4 col-xs-offset-2">
-					<a href="http://blog.lumened.org"><img src="img/blog_circle.png" alt="Blog Oval"></a>
+					<img src="img/blog_circle.png" alt="Blog Oval">
 				</div>
 				<div class="col-xs-2">
-					<a class="btn btn-primary btn-md" role="button" id="blogbutton" href="http://blog.lumened.org" target="_blank">Follow the Blog</a>
-				</div>
-			</div>
-			<div class="row xs">
-				<div class="col-xs-12">
-					<a href="http://blog.lumened.org"><img src="img/blog_circle.png" alt="Blog Oval"></a>
-				</div>
-			</div>
-			<div class="row xs">
-				<div class="col-xs-12">
-					<a class="btn btn-primary btn-md" role="button" id="blogbutton" href="http://blog.lumened.org" target="_blank">Follow the Blog</a>
+					<a class="btn btn-primary btn-md" role="button" id="blogbutton" a href="http://blog.lumened.org" target="_blank">Follow the Blog</a>
 				</div>
 			</div>
 		</div>
 		
-		<div class="container-fluid summary">
+		<!-- Page 3 -->
+		<div class="container-fluid page-3">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>We provide better learning through tailored educational content, a video pen pal program and a unique device that works anywhere</h1>
 				</div>
 			</div>
 			<div class="row">
-				<a href="#device"><div class="col-sm-4">
-					<h2>Device</h2>
+				<div class="col-sm-4">
+					<a href="#Device"><h2>Device</h2></a>
 					<img src="img/Device mask.png" alt="Device mask" class="img-responsive">
-				</div></a>
-				<a href="#content"><div class="col-sm-4">
-					<h2>Content</h2>
+				</div>
+				<div class="col-sm-4">
+					<a href="#Content"><h2>Content</h2></a>
 					<img src="img/Partners mask.png" alt="Partners mask" class="img-responsive">
-				</div></a>
-				<a href="#program"><div class="col-sm-4">
-					<h2>Pen pal program</h2>
+				</div>
+				<div class="col-sm-4">
+					<a href="#Program"><h2>Pen pal program</h2></a>
 					<img src="img/Program mask.png" alt="Program Mask" class="img-responsive">
-				</div></a>
+				</div>
 			</div>
 		</div>
 		
-		<div id="device" class="container-fluid row picture-panel device">
+		<!-- Page 6 -->
+		<div class="container-fluid row picture-panel page-6">
 			<img src="img/device_panel2.jpg" alt="Box Photo" class="img-responsive">
 			<div class="col-xs-12">
 			<!-- Info Box-->
 				<div class="info-box sm md lg">
 					<h1>The Box</h1>
-					<p>Our solution centers around a device that integrates a projector, PC and video camera. It serves as a multimedia device to play audiovisual content to an entire classroom.</p>
+					<p>Our platform centers around a device that integrates a projector, PC and video camera. It serves as a multimedia device to play audiovisual content to an entire classroom.</p>
 					<p>Powered by a solar-charged battery, each device is capable of operating without electricity or internet access. Its portability, simplicity and ruggedness guarantees the device can be used by anyone, anywhere.</p>
-					<div class="button-div"><a class="btn btn-primary btn-md" role="button" href="device.html">Learn more</a></div>
+					<div class="button-div"><a class="btn btn-primary btn-md" role="button" href="http://lumened.org/device.html">Learn more</a></div>
 				</div>
 			</div>
 		</div>
 		
-		<div class="container-fluid device-after">
+		<!-- Page 2 -->
+		<div class="container-fluid page-11">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>Technology is only as useful as the teacher makes it in the classroom. We provide effective and targeted teaching tools that inspire students to learn.</h1>
+					<h1><br><br>In the past, technology on its own has failed to solve education.<br><br>
+						That's why we focus tirelessly on the relevance of our learning materials.<br><br><br>
+					</h1>
 				</div>
 			</div>
 		</div>
 		
 		
-		<div id="content" class="container-fluid row picture-panel content">
+		<!-- Page 4 -->
+		<div class="container-fluid row picture-panel page-4">
 			<img src="img/anurag.jpg" alt="Content Photo" class="img-responsive">
 			<div class="col-xs-12">
 			<!-- Info Box-->
 				<div class="info-box sm md lg">
 					<h1>The Content</h1>
-					<p>Each device comes preloaded with a library of customized educational videos on a range of core subjects, including English, science, and math.</p>
-					<p>All content is mapped onto existing educational standards, like the CBSE or the Common Core. This allows us to work with teachers to seamlessly integrate this material into their existing lesson plans.</p>
+					<p>Each device comes preloaded with a library of educational videos on a range of core subjects, including english, science, and math.</p>
+					<p>The content mostly consists of short clips on specific topics and is mapped onto existing standards, like NCERT or the Common Core. This allows us to work with teachers to seamlessly integrate this content into their existing lesson plans.</p>
 					<div class="button-div"><a class="btn btn-primary btn-md" role="button">Learn more</a></div>
 				</div>
 			</div>
 		</div>
 		
 		<!-- Page 8 -->
-		<div class="container-fluid content-after">
+		<div class="container-fluid page-8">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>With over 1500 videos sourced from existing open source educators,</br> our content library meets the unique needs of every classroom</h1>
+					<h1><br>With over 1500 videos sourced from existing open source educators,</br> our content library meets the unique needs of every classroom</h1>
 				</div>
 			</div>
 			<!-- <div class="row">
@@ -205,130 +208,94 @@
 			</div>
 		</div>
 		
-		<!-- Page 12 -->
-		<div class="container-fluid penpal-before">
+		<!-- Page ? -->
+		<div class="container-fluid page-11">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>Everything comes together in our video pen pal program, where we focus on building lasting relationships between communities</h1>
+					<h1><br><br>Everything comes together in our video pen pal program<br>
+						where we focus on building lasting relationships between communities<br>
+						and listening to what our classrooms have to say.<br><br><br>
+					</h1>
 				</div>
 			</div>
 		</div>
-		
-		<div id="program" class="container-fluid row picture-panel penpal">
+
+
+		<!-- Page 10 -->
+		<div class="container-fluid row picture-panel page-10">
 			<img src="img/anurag.jpg" alt="Pen Pal Program Photo" class="img-responsive">
 			<div class="col-xs-12">
 			<!-- Info Box-->
 				<div class="info-box sm md lg">
 					<h1>The Pen Pal Program</h1>
-					<p>Better learning involves taking students beyong the four walls of their classroom and engaging them with the global community. The LumenEd Pen-Pal Program helps classrooms in different countries share their knowledge, stories and experiences with each other through weekly video exchanges.</p>
+					<p>Better learning involves taking students out of their classrooms and engaging them with the global community. Through the LumenEd Pen Pal Program, classrooms share their knowledge, stories and language with each other through weekly video exchanges.</p>
+					<p>Our hope is to not only facilitate interactivity in the classroom, but to give students the opportunity to engage, learn, and involve themselves in distant comm unties.</p>
 					<div class="button-div"><a class="btn btn-primary btn-md" role="button">Learn more</a></div>
 				</div>
 			</div>
 		</div>
 		
-		<div class="container-fluid penpal-after">
+		<!-- Page 5 -->
+		<div class="container-fluid page-5">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>So far, we've made connections between classrooms in the United States in India. We are always on the lookout for more partners who want to add interdisciplinary depth to their classroom.</h1>
+					<h1>So far, we've made connections between the U.S. and India, and are look for more participants</h1>
 				</div>
+			</div>
+			<div class="row">
+				<img src="img/map_placeholder.png" alt="Map Placeholder" class="img-responsive">
 			</div>
 		</div>
 		
-		<div class="container-fluid map row">
-			<iframe name='iframe1' id="iframe1" src="https://mapsengine.google.com/map/u/1/embed?mid=zkMI_0jUW4lc.k8mGnS5EILbs" width="100%" height="600"></iframe>
-		</div>
+		<!-- Page 7 -->
+		<!-- <div class="container-fluid page-7">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>Features:</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<h2>&bull; Bright Beauty</h2>
+					<h2>&bull; LumenEd(c) Orange</h2>
+					<h2>&bull; Intimate</h2>
+				</div>
+				<div class="col-sm-4">
+					<h2>&bull; Bright Beauty</h2>
+					<h2>&bull; LumenEd(c) Orange</h2>
+					<h2>&bull; Intimate</h2>
+				</div>
+				<div class="col-sm-4">
+					<h2>&bull; Bright Beauty</h2>
+					<h2>&bull; LumenEd(c) Orange</h2>
+					<h2>&bull; Intimate</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 ">
+					<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+				</div>
+			</div>
+			<div class="row">
+				<img src="img/interface.png" alt="Map Placeholder" class="img-responsive">
+			</div>
+		</div> -->
 		
-		<div id="contact" class="container-fluid contact">
+		<!-- Page 9 -->
+		<div class="container-fluid page-9">
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>Get Involved</h1>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-12">
-					<h2>Working together with organizations, schools and individuals who share our vision keeps us moving forward. We’d love to hear from you below.</h2>
+				<div class="col-xs-12 ">
+					<h2>Working together with like-minded organizations, schools and individuals keeps us moving forward</h2>
 				</div>
 			</div>
-			<form method="post" action="">
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Name" name="name">
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Email" name="email">
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="input-group">
-							<input type="text" class="form-control" placeholder="Subject" name="subject">
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12">
-						<div class="input-group">
-							<textarea class="form-control" rows="6" placeholder="Message" name="message"></textarea>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12">
-						<input type="submit" href="#contact" name="send" class="btn btn-primary btn-md xs sm md" role="button" Value="Send">
-						<input type="submit" href="#contact" name="send" class="btn btn-primary btn-lg lg" role="button" Value="Send">
-					</div>
-				</div>
-			</form>
-			<?php
-			//Configuration Options
-			$sendTo = 'total.prakash@gmail.com';
-			$subjectPrepend = "From contact form: ";
-			$invalidEmail = "<h3>Please enter a valid Email Address</h3>";
-			$success = "<h3>Thank you for the message. We'll get in touch with you shortly.</h3>";
-			$sendError = "<h3>Oops, looks like something broke. Email us at contact@lumened.org with your message instead.</h3>";
-			
-			if (isset($_POST["send"])){// the user has submitted the form
-			// Check if the "email" input field is filled out
-				if (isset($_POST["email"])) {
-					// Check if "from" email address is valid
-					$mailcheck = spamcheck($_POST["email"]);
-					if ($mailcheck==FALSE) {
-						echo $invalidEmail;
-					} else {
-						$Header = 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-						$Header .= "From: " .$_POST["name"] ."<" .$_POST["email"] .">\r\n"; // sender
-						$subject = $subjectPrepend;
-						$subject .= $_POST["subject"];
-						$message = $_POST["message"];
-						// message lines should not exceed 70 characters (PHP rule), so wrap it
-						$message = wordwrap($message, 70);
-						// send mail
-						If(mail('total.prakash@gmail.com',$subject,$message,$Header)){
-							echo $success;
-						} else
-							echo $sendError;
-					}
-				}
-			}
-			?>
-			<?php
-				function spamcheck($field) {
-					// Sanitize e-mail address
-					$field=filter_var($field, FILTER_SANITIZE_EMAIL);
-					// Validate e-mail address
-					if(filter_var($field, FILTER_VALIDATE_EMAIL)) {
-						return TRUE;
-					} else {
-						return FALSE;
-					}
-				}
-			?>
+			<div class="row">
+				<!-- <img src="img/interface.png" alt="Map Placeholder" class="img-responsive"> -->
+			</div>
 		</div>
 		
 <!--Footer
@@ -343,7 +310,6 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-		<script src="js/script.js"></script>
 	<!-- <script src="../../dist/js/bootstrap.min.js"></script> -->
     <!-- <script src="../../assets/js/docs.min.js"></script> -->
 	<!-- <script>
