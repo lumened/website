@@ -411,49 +411,49 @@ h1,h2,h3 {
 /*Learn More Pages
 ---------------------------------------------------*/
 /*blue panels*/
-.device-more{
+.present{
 	background-color:rgba(126,157,228,1);
 }
-.device-more .row{
+.present .row{
 	margin: 30px 5%;
 }
-.device-more h1, .device-more h2, .device-more h3, .device-more h4{
+.present h1, .present h2, .present h3, .present h4{
 	color:white;
 }
 @media (min-width: 992px) {
-	.device-more .row{
+	.present .row{
 		margin-left: 12%;
 		margin-right: 12%;
 	}
 }
 @media (min-width: 1200px) {
-	.device-more .row{
+	.present .row{
 		margin-left: 15%;
 		margin-right: 15%;
 	}
 }
 
 /*white panels*/
-.device-overview{
+.concept, .future{
 	background-color:white;
 }
-.device-overview .row{
+.concept .row, .future .row{
 	margin: 30px 5%;
 }
-.device-overview h1, .device-overview h3{
+.concept h1, .concept h3, .future h1, .future h3{
 	color:rgba(126,157,228,1);
 }
-.device-overview h3{
+.concept h3, .future h3{
 	text-align: left;
 }
 @media (min-width: 992px) {
-	.device-overview .row{
+	.concept .row, .future .row{
 		margin-left: 12%;
 		margin-right: 12%;
 	}
 }
 @media (min-width: 1200px) {
-	.device-overview .row{
+	.concept .row, .future .row{
 		margin-left: 15%;
 		margin-right: 15%;
 	}
