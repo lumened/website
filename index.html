@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -74,8 +73,8 @@
 				<!-- cover page caption box with user input field-->
 					<!-- When screen size is small(sm), medium(md) or large(lg)-->
 					<div class="cover-caption">
-						<h3>Connecting students around the world</h3>
-						<h3>One classroom at a time</h3>
+						<h3>Connecting students around the world.</h3>
+						<h3>One classroom at a time.</h3>
 						<div class="container">
 							<a href="#contact" class="btn btn-primary btn-md xs sm md" role="button">Get involved</a>
 							<a href="#contact" class="btn btn-primary btn-lg lg" role="button">Get involved</a>
@@ -87,9 +86,9 @@
 		<div class="container-fluid mission">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>We bring better learning to the classroom</br>
+					<h1>We bring better learning to classrooms,</br>
 							through an accessible learning platform</br>
-							that brings communities together</h1>
+							that brings communities together.</h1>
 				</div>
 			</div>
 			<div class="row sm md lg">
@@ -115,7 +114,7 @@
 		<div class="container-fluid summary">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>We provide better learning through tailored educational content, a video pen pal program and a unique device that works anywhere</h1>
+					<h1>We enhance teaching in classrooms with tailored educational content, a video pen pal program and a unique device that works anywhere.</h1>
 				</div>
 			</div>
 			<div class="row">
@@ -140,8 +139,8 @@
 			<!-- Info Box-->
 				<div class="info-box sm md lg">
 					<h1>The Box</h1>
-					<p>Our solution centers around a device that integrates a projector, PC and video camera. It serves as a multimedia device to play audiovisual content to an entire classroom.</p>
-					<p>Powered by a solar-charged battery, each device is capable of operating without electricity or internet access. Its portability, simplicity and ruggedness guarantees the device can be used by anyone, anywhere.</p>
+					<p>Our tools center around a device that integrates a projector, PC and video camera. It serves a bidirectional role: to play audiovisual content to an entire classroom, and to record videos for the pen pal program. </p>
+					<p>Powered by a solar-charged battery, each device is capable of operating without electricity or internet access. Moreover, the portability, ease-of-use, and ruggedness guarantee the device can be used by any teacher anywhere.</p>
 					<div class="button-div"><a class="btn btn-primary btn-md" role="button" href="device.html">Learn more</a></div>
 				</div>
 			</div>
@@ -150,7 +149,7 @@
 		<div class="container-fluid device-after">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>Technology is only as useful as the teacher makes it in the classroom. We provide effective and targeted teaching tools that inspire students to learn.</h1>
+					<h1>Technology is only as useful as teachers make it in the classroom. We provide effective teaching tools that inspire students to learn.</h1>
 				</div>
 			</div>
 		</div>
@@ -162,8 +161,8 @@
 			<!-- Info Box-->
 				<div class="info-box sm md lg">
 					<h1>The Content</h1>
-					<p>Each device comes preloaded with a library of customized educational videos on a range of core subjects, including English, science, and math.</p>
-					<p>All content is mapped onto existing educational standards, like the CBSE or the Common Core. This allows us to work with teachers to seamlessly integrate this material into their existing lesson plans.</p>
+					<p>Each device comes preloaded with a library of customized educational content on a range of core subjects, including English, Science, and Math.</p>
+					<p>All content is mapped onto existing educational standards, such as CBSE or the Common Core. This allows us to work with teachers to seamlessly integrate material into their existing lesson plans.</p>
 					<div class="button-div"><a class="btn btn-primary btn-md" role="button">Learn more</a></div>
 				</div>
 			</div>
@@ -173,14 +172,10 @@
 		<div class="container-fluid content-after">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>With over 1500 videos sourced from existing open source educators,</br> our content library meets the unique needs of every classroom</h1>
+					<h1>With over 1500 videos sourced from existing open source providers,</br> our content library meets the unique needs of every classroom.</h1>
 				</div>
 			</div>
-			<!-- <div class="row">
-				<div class="col-xs-12">
-					<h2>With over 1500 videos sourced from existing open source educators, like Khan Academy, our content meets the unique needs of each classroom.</h2>
-				</div>
-			</div> -->
+
 			<div class="row">
 				<div class="col-sm-4">
 					<img src="img/1.png" alt="Content Mask" class="img-responsive">
@@ -209,7 +204,7 @@
 		<div class="container-fluid penpal-before">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>Everything comes together in our video pen pal program, where we focus on building lasting relationships between communities</h1>
+					<h1>Bringing everything together, our video pen pal program focuses on building lasting relationships between distant communities.</h1>
 				</div>
 			</div>
 		</div>
@@ -220,7 +215,8 @@
 			<!-- Info Box-->
 				<div class="info-box sm md lg">
 					<h1>The Pen Pal Program</h1>
-					<p>Better learning involves taking students beyong the four walls of their classroom and engaging them with the global community. The LumenEd Pen-Pal Program helps classrooms in different countries share their knowledge, stories and experiences with each other through weekly video exchanges.</p>
+					<p>Better learning involves taking students beyond the four walls of their classroom and engaging them with the global community. The Pen-Pal Program connects classrooms in different countries to exchange their knowledge, stories and life experiences through weekly video exchanges.</p>
+					<p>This allows for increased student participation and engagement, and promotes cultural expression, alternative perspectives, critical thinking, and creativity. 
 					<div class="button-div"><a class="btn btn-primary btn-md" role="button">Learn more</a></div>
 				</div>
 			</div>
@@ -229,7 +225,7 @@
 		<div class="container-fluid penpal-after">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>So far, we've made connections between classrooms in the United States in India. We are always on the lookout for more partners who want to add interdisciplinary depth to their classroom.</h1>
+					<h1>So far, we've connected classrooms in the United States and in India. We are always on the lookout for more partners who want to add interdisciplinary depth to their classrooms.</h1>
 				</div>
 			</div>
 		</div>
