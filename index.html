@@ -114,7 +114,7 @@
 		<div class="container-fluid summary">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>We enhance teaching in classrooms with tailored educational content, a video pen pal program and a unique device that works anywhere.</h1>
+					<h1>We bring better learning through tailored educational content, a video pen pal program and a unique device that works anywhere.</h1>
 				</div>
 			</div>
 			<div class="row">
@@ -139,7 +139,7 @@
 			<!-- Info Box-->
 				<div class="info-box sm md lg">
 					<h1>The Box</h1>
-					<p>Our tools center around a device that integrates a projector, PC and video camera. It serves a bidirectional role: to play audiovisual content to an entire classroom, and to record videos for the pen pal program. </p>
+					<p>Our solution centers around a device that integrates a projector, PC and video camera. It serves a bidirectional role: to play audiovisual content to an entire classroom, and to record videos for the pen pal program. </p>
 					<p>Powered by a solar-charged battery, each device is capable of operating without electricity or internet access. Moreover, the portability, ease-of-use, and ruggedness guarantee the device can be used by any teacher anywhere.</p>
 					<div class="button-div"><a class="btn btn-primary btn-md" role="button" href="device.html">Learn more</a></div>
 				</div>
