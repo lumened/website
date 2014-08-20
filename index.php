@@ -231,6 +231,7 @@
 		</div>
 		
 		<div class="container-fluid map row">
+			<div class="map-overlay" onClick="style.pointerEvents='none'"></div>
 			<iframe name='iframe1' id="iframe1" src="https://mapsengine.google.com/map/u/1/embed?mid=zkMI_0jUW4lc.k8mGnS5EILbs" width="100%" height="600"></iframe>
 		</div>
 		
