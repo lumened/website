@@ -86,9 +86,10 @@
 		<div class="container-fluid mission">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>We bring better learning to classrooms,</br>
+					<h1 class= "md lg">We bring better learning to classrooms,</br>
 							through an accessible learning platform</br>
 							that brings communities together.</h1>
+					<h1 class="xs sm">We bring better learning to classrooms, through an accessible learning platform that brings communities together.</h1>
 				</div>
 			</div>
 			<div class="row sm md lg">
@@ -134,10 +135,10 @@
 		</div>
 		
 		<div id="device" class="container-fluid row picture-panel device">
-			<img src="img/device_panel2.jpg" alt="Box Photo" class="img-responsive">
+			<img src="img/device_panel2.jpg" alt="Box Photo" class="img-responsive xs sm md lg">
 			<div class="col-xs-12">
 			<!-- Info Box-->
-				<div class="info-box sm md lg">
+				<div class="info-box">
 					<h1>The Box</h1>
 					<p>Our solution centers around a device that integrates a projector, PC and video camera. It serves a bidirectional role: to play audiovisual content to an entire classroom, and to record videos for the pen pal program. </p>
 					<p>Powered by a solar-charged battery, each device is capable of operating without electricity or internet access. Moreover, the portability, ease-of-use, and ruggedness guarantee the device can be used by any teacher anywhere.</p>
@@ -172,7 +173,7 @@
 		<div class="container-fluid content-after">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>With over 1500 videos sourced from existing open source providers,</br> our content library meets the unique needs of every classroom.</h1>
+					<h1>With over 1500 videos sourced from existing open source providers, our content library meets the unique needs of every classroom.</h1>
 				</div>
 			</div>
 
@@ -225,14 +226,17 @@
 		<div class="container-fluid penpal-after">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>So far, we've connected classrooms in the United States and in India. We are always on the lookout for more partners who want to add interdisciplinary depth to their classrooms.</h1>
+					<h1>So far, we've connected classrooms in the United States and India. We are always on the lookout for more partners who want to add interdisciplinary depth to their classrooms.</h1>
 				</div>
 			</div>
 		</div>
 		
-		<div class="container-fluid map row">
+		<div class="container-fluid map row md lg">
 			<div class="map-overlay" onClick="style.pointerEvents='none'"></div>
 			<iframe name='iframe1' id="iframe1" src="https://mapsengine.google.com/map/u/1/embed?mid=zkMI_0jUW4lc.k8mGnS5EILbs" width="100%" height="600"></iframe>
+		</div>
+		<div class="container-fluid map-piconly row xs sm">
+			<img src="img/map_placeholder.png" alt="Map Placeholder" class="img-responsive">
 		</div>
 		
 		<div id="contact" class="container-fluid contact">
