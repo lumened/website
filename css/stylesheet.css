@@ -587,6 +587,27 @@ h1,h2,h3 {
 	width: 127px;
 }
 
+.learnmore-device .concept img {
+	display: block;
+	margin: 10px auto 20px auto;
+	border-radius: 20px;
+	max-width: 70%;
+}
+
+.learnmore-device .present .row{
+	text-align: center;
+}
+
+.learnmore-device .present img {
+	border-radius: 20px;
+}
+
+.learnmore-device .present .col-xs-6{
+	display:inline-block;
+	vertical-align: middle;
+}
+
+
 /*map
 ----------------*/
 .map .map-overlay {
