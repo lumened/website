@@ -156,9 +156,8 @@
 		<div class="container-fluid device-after">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>Technology is only as useful as a teacher makes it in their classroom.</h1>
-					<h1>That's why we pair every device with educational content</h1>
-				</div>
+					<h1>We preload every device with relevant and engaging educational videos that inspire students to learn.</h1>					
+									</div>
 			</div>
 		</div>
 		
@@ -168,9 +167,9 @@
 			<!-- Info Box-->
 				<div class="info-box sm md lg">
 					<h1>The Content</h1>
-					<p>Every device comes preloaded with tailored educational videos on a range of core subjects, including English, science, and math.</p>
-					 <p>When teachers see fit, they are able to browse, add, or remove content, all through the device's interface. This allows us to work with teachers to seamlessly integrate material into their existing lesson plans.</p>
-					<div class="button-div"><a class="btn btn-primary btn-md" role="button" href="content.html">Learn more</a></div>
+					<p>We source a wealth of diverse and engaging videos from open source content providers. By mapping this content to existing educational standards, like the CBSE or Common Core, teachers can easily find the materials they need.</p>					
+					
+				<p>Our platform also lets teachers browse, add, or remove content themselves, all through the device's interface. This allows teachers to seamlessly integrate new material when lesson plans change.</p>					<div class="button-div"><a class="btn btn-primary btn-md" role="button" href="content.html">Learn more</a></div>
 				</div>
 			</div>
 		</div>
@@ -179,7 +178,7 @@
 		<div class="container-fluid content-after">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>With over 1500 videos sourced from open source providers, our digital content library meets the unique needs of every classroom.</h1>
+					<h1>With over 1500 videos on topics like English, Science and Math, our digital content library meets the unique needs of every classroom.</h1>
 				</div>
 			</div>
 
