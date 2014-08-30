@@ -53,6 +53,13 @@ h1,h2,h3 {
    font-weight: 400;
 	 font-size: 18px;
 }
+.navbar-left li{
+   background-color: rgba(247,148,29,1);
+	 color: rgba(247,192,66,1);
+   font-weight: 400;
+	 font-size: 28px;
+	 margin: 5px 0px 0px 10px;
+}
 
 .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus{
 	background-color: rgba(247,148,29,1);
@@ -67,7 +74,7 @@ h1,h2,h3 {
 
 .navbar .dropdown-menu{
 	background-color: rgba(247,148,29,1);
-	border: 0px
+	border: 0px;
 }
 
 .navbar .logo {
@@ -76,6 +83,14 @@ h1,h2,h3 {
 	margin-left: 5px;
 	margin-bottom: 10px;
 	margin-top: -6px;
+}
+
+.navbar .dropdown-menu li a:hover {
+	color: black;
+}
+
+.navbar .collapse, .navbar {
+	border: 0px;
 }
 
 /* Cover Panel
@@ -112,7 +127,7 @@ h1,h2,h3 {
 }
 @media (max-width: 479px){
 	.cover-caption{
-		margin: 25% auto;
+		margin: 20% auto;
 		width: 290px;
 		height: 100px;
 		padding: 10px 10px;
@@ -145,16 +160,16 @@ h1,h2,h3 {
 	.cover-caption{
 		margin: 35% auto;
 		width: 440px;
-		height: 130px;
+		height: 140px;
 	}
 	.cover-caption h3{
-		font-size: 18px;
+		font-size: 20px;
 	}
 	.cover-caption .container {
 		margin: 20px auto;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 	.cover-caption{
 		margin: 35% auto;
 		width: 500px;
@@ -162,6 +177,19 @@ h1,h2,h3 {
 	}
 	.cover-caption h3{
 		font-size: 24px;
+	}
+	.cover-caption .container {
+		margin: 20px auto;
+	}
+}
+@media (min-width: 1200px) {
+	.cover-caption{
+		margin: 35% auto;
+		width: 550px;
+		height: 170px;
+	}
+	.cover-caption h3{
+		font-size: 28px;
 	}
 	.cover-caption .container {
 		margin: 20px auto;
@@ -238,27 +266,27 @@ h1,h2,h3 {
 @media (min-width: 768px) and (max-width: 991px) {
 	.info-box {
 		width: 300px;
-		padding: 10px 20px;
+		padding: 10px 25px;
 	}
 	.info-box h1{
 		margin: 10px auto 10px auto;
 		font-size: 30px;
 	}
 	.info-box p{
-		font-size: 17px;
+		font-size: 18px;
 		margin: 0px 0px 10px 0px;
 	}
 	.info-box .button-div {
 		margin: 20px 82.5px;
 	}
 	.device .info-box{
-		height:405px;
+		height:400px;
 	}
 	.content .info-box{
-		height:340px;
+		height:360px;
 	}
 	.penpal .info-box{
-		height:420px;
+		height:330px;
 	}
 }
 
@@ -279,13 +307,13 @@ h1,h2,h3 {
 		margin: 30px 102.5px;
 	}
 	.device .info-box{
-		height:510px;
+		height:490px;
 	}
 	.content .info-box{
-		height:440px;
+		height:420px;
 	}
 	.penpal .info-box{
-		height:540px;
+		height:380px;
 	}
 }
 
@@ -316,11 +344,15 @@ h1,h2,h3 {
 	.page-7 h2, .contact h2, .contact h3{
 		margin: 0px 30px 30px 30px;
 	}
+	.mission h1, .device-after h1, .penpal-before h1, .penpal-after h1{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
 }
 @media (min-width: 992px) {
 	.mission h1, .device-after h1, .penpal-before h1, .penpal-after h1{
-		margin-left: 12%;
-		margin-right: 12%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
 @media (min-width: 1200px) {
@@ -405,13 +437,30 @@ h1,h2,h3 {
 	display:block;
 	margin: auto auto;
 }
-
 /*adjustments for individual white on blue panels*/
 .summary img:hover {
 	opacity: .7;
 }
+.summary .summary-device {
+	float:right;
+}
+.summary .summary-program {
+	float:left;
+}
 .content-after .row:nth-child(3){
-	margin: 30px auto;
+	margin-top: 30px;
+}
+.content-after .row, .summary .row {
+	margin-left: 2%;
+	margin-right: 2%;
+}
+.content-after .row:nth-child(2) .col-sm-4:nth-child(1) img,
+.content-after .row:nth-child(3) .col-sm-4:nth-child(1) img {
+ float:right;
+}
+.content-after .row:nth-child(2) .col-sm-4:nth-child(3) img,
+.content-after .row:nth-child(3) .col-sm-4:nth-child(3) img {
+ float:left;
 }
 @media (max-width: 767px) {
 	.summary h1, .content-after h1, .penpal-after h1{
@@ -421,21 +470,23 @@ h1,h2,h3 {
 	.summary h1 {
 		margin-bottom: 0px;
 	}
-	.content-after .col-sm-4 {
-		margin-bottom: 30px;
-	}
-	.content-after .row .col-sm-4:nth-child(3){
-		margin-bottom: 0px;
-	}
-	.content-after .row:nth-child(3){
-		display: none;
-	}
 	.summary .row:nth-child(2), .summary .row:nth-child(3),
 	.summary .row:nth-child(4) {
 		display:none;
 	}
 	.summary h1{
 	margin-top: 0px;
+	}
+	.content-after .row:nth-child(4) {
+	 margin-bottom: 30px;
+	}
+	.content-after .row:nth-child(4) .col-xs-6:nth-child(1) img,
+	.content-after .row:nth-child(5) .col-xs-6:nth-child(1) img {
+	 float:right;
+	}
+	.content-after .row:nth-child(4) .col-xs-6:nth-child(2) img,
+	.content-after .row:nth-child(5) .col-xs-6:nth-child(2) img {
+	 float:left;
 	}
 }
 .penpal-after h1{
@@ -449,8 +500,8 @@ h1,h2,h3 {
 }
 @media (min-width: 992px) {
 	.summary h1, .content-after h1, .penpal-after h1{
-		margin-left: 12%;
-		margin-right: 12%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
 @media (min-width: 1200px) {
@@ -462,6 +513,24 @@ h1,h2,h3 {
 
 /*Learn More Pages
 ---------------------------------------------------*/
+/*title panel*/
+.title {
+	background-color: rgba(247,148,29,1);
+}
+
+.title h1 {
+	color: rgba(247,192,66,1);
+	font-size: xx-large;
+}
+
+/* .cover-page .learn-more-caption h1 {
+	font-size: 40px;
+	color: white;
+}
+.cover-page .learn-more-caption {
+	margin: 30% 0px;
+} */
+
 /*blue panels*/
 .present{
 	background-color:rgba(126,157,228,1);
@@ -472,10 +541,12 @@ h1,h2,h3 {
 .present h1, .present h2, .present h3, .present h4{
 	color:white;
 }
+
+
 @media (min-width: 992px) {
 	.present .row{
-		margin-left: 12%;
-		margin-right: 12%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
 @media (min-width: 1200px) {
@@ -500,8 +571,8 @@ h1,h2,h3 {
 }
 @media (min-width: 992px) {
 	.concept .row, .future .row{
-		margin-left: 12%;
-		margin-right: 12%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
 @media (min-width: 1200px) {
@@ -558,7 +629,7 @@ footer{
 	.xs{display:block;}
 	.mission h1,.summary h1, .content h1, .penpal-after, .device h1,
 	.page-7 h1, .content-after h1, .contact h1, .contact h2, .penpal h1, .device-after h1, .penpal-before h1, .penpal-after h1{
-		font-size: 24px;
+		font-size: 21px;
 	}
 }
 @media (min-width: 480px) and (max-width: 767px) {
@@ -568,14 +639,33 @@ footer{
 	/*panel headings*/
 	.mission h1,.summary h1, .content h1, .penpal-after, .device h1,
 	.page-7 h1, .content-after h1, .contact h1, .contact h2, .penpal h1, .device-after h1, .penpal-before h1, .penpal-after h1{
-		font-size: 28px;
+		font-size: 24px;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.xs, .sm, .lg {display:none;}
 	.md{display:block;}
+	.mission h1,.summary h1, .content h1, .penpal-after, .device h1,
+	.page-7 h1, .content-after h1, .contact h1, .contact h2, .penpal h1, .device-after h1, .penpal-before h1, .penpal-after h1{
+		font-size: 26px;
+	}
 }
 @media (min-width: 992px) {
 	.xs, .sm, .md {display:none;}
 	.lg{display:block;}
+	.mission h1,.summary h1, .content h1, .penpal-after, .device h1,
+	.page-7 h1, .content-after h1, .contact h1, .contact h2, .penpal h1, .device-after h1, .penpal-before h1, .penpal-after h1{
+		font-size: 28px;
+	}
 }
+@media (min-width: 1200px) {
+	.mission h1,.summary h1, .content h1, .penpal-after, .device h1,
+	.page-7 h1, .content-after h1, .contact h1, .contact h2, .penpal h1, .device-after h1, .penpal-before h1, .penpal-after h1{
+		font-size: 30px;
+	}
+}
+/* @media (min-width: 1022px) {
+	.xs, .sm, .md .lg {display;none;}
+	.xl {display:block}}
+} */
+
