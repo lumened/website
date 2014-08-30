@@ -591,11 +591,16 @@ h1,h2,h3 {
 	display: block;
 	margin: 10px auto 20px auto;
 	border-radius: 12px;
-	max-width: 70%;
+	max-width: 100%;
 }
 
 .learnmore-device .present .row {
 	font: 0/0 a;
+}
+
+.learnmore-device .present .row{
+	text-align: left;
+>>>>>>> origin/master
 }
 
 .learnmore-device .present .row .text-div {
