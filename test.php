@@ -264,16 +264,17 @@
 			<div class="row">
 				<div class="col-xs-12">
 				<h1>Get Involved</h1></div>
-				<div align=center><a href="http://www.facebook.com/lumenedinc"><img src="img/fb.png"></a>
-                    <a href="http://www.twitter.com/lumened"><img src="img/tw.png"></a>
-                    <a href="http://www.linkedin.com/company/lumened"><img src="img/li.png"></a>
-                    <a href="http://www.youtube.com/user/lumenedchannel"><img src="img/yt.png"></a></div>
-                </div>
+			</div>
 			<div class="row">
 				<div class="col-xs-12">
 					<h2>Working together with organizations, schools, and individuals who share our vision keeps us moving forward. We’d love to hear from you.</h2>
 				</div>
 			</div>
+			<div class="row" align=center><a href="http://www.facebook.com/lumenedinc"><img src="img/fb.png"></a>
+					<a href="http://www.twitter.com/lumened"><img src="img/tw.png"></a>
+					<a href="http://www.linkedin.com/company/lumened"><img src="img/li.png"></a>
+					<a href="http://www.youtube.com/user/lumenedchannel"><img src="img/yt.png"></a>
+       </div>
 			<form method="post" action="">
 				<div class="row">
 					<div class="col-xs-12">
