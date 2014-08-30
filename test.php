@@ -87,9 +87,9 @@
 		<div class="container-fluid mission">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>At LumenEd, we are bringing high-quality education to classrooms around the world</h1>
-					<h1>We're empowering classrooms on opposite ends of the globe
-					to learn from each other and build meaningful connections that will make an impact</h1>
+					<h1>We bring better learning to the classroom
+					through an accessible education platform
+					that brings communities together</h1>
 				</div>
 			</div>
 			<div class="row sm md lg">
@@ -115,7 +115,7 @@
 		<div class="container-fluid summary">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>Our learning platform consists of specialized educational content, 
+					<h1>Our platform consists of specialized educational content, 
 					a video pen pal program, and a unique device that makes it all possible</h1>
 				</div>
 			</div>
@@ -157,8 +157,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>Technology is only as useful as a teacher makes it in their classroom.</h1>
-					<h1>That's why we pair every device with an intuitive interface, multiple language support,
-					and specialized tools to make teaching and learning effective in any environment.</h1>
+					<h1>That's why we pair every device with educational content</h1>
 				</div>
 			</div>
 		</div>
@@ -228,7 +227,7 @@
 		<div class="container-fluid penpal-before">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>Bringing everything together, our video pen pal program focuses on building lasting relationships between distant communities.</h1>
+					<h1>Everything comes together with our video pen pal program that focuses on building lasting relationships between distant communities.</h1>
 				</div>
 			</div>
 		</div>
@@ -267,7 +266,7 @@
 				<div class="col-xs-12">
 				<h1>Get Involved</h1></div>
 				<div align=center><a href="http://www.facebook.com/lumenedinc"><img src="img/fb.png"></a>
-                    <a href="http://www.twitter.com/lumened"><img src="img/tw.png></a>
+                    <a href="http://www.twitter.com/lumened"><img src="img/tw.png"></a>
                     <a href="http://www.linkedin.com/company/lumened"><img src="img/li.png"></a>
                     <a href="http://www.youtube.com/user/lumenedchannel"><img src="img/yt.png"></a></div>
                 </div>
