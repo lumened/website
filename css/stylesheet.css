@@ -568,17 +568,30 @@ h1,h2,h3 {
 }
 .concept h3, .future h3{
 	text-align: left;
+	width: 70%;
+	margin: 10px auto 10px auto;
+	display: block;
+	float:none;
+	
 }
-@media (min-width: 992px) {
+@media (max-width: 961px) {
 	.concept .row, .future .row{
-		margin-left: 5%;
-		margin-right: 5%;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	.learnmore-device .concept .img, .concept h3, .future h3{
+		width: 70%;
+	}
+	.learnmore-device .present .img{
+		display: block;
+		float: none;
+		width: 90%;
 	}
 }
 @media (min-width: 1200px) {
 	.concept .row, .future .row{
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
 
@@ -588,9 +601,9 @@ h1,h2,h3 {
 }
 
 .learnmore-device .concept img {
+	margin: 30px auto 40px auto;
+	width: 70%;
 	display: block;
-	margin: 10px auto 20px auto;
-	max-width: 100%;
 	
 }
 
@@ -599,12 +612,12 @@ h1,h2,h3 {
 }
 
 .learnmore-device .present img {
-	border-radius: 20px;
+	border-radius: 0px;
 }
 
 .learnmore-device .present .col-xs-6{
 	display:inline-block;
-	vertical-align: middle;
+	vertical-align: left;
 }
 
 
