@@ -536,23 +536,22 @@ h1,h2,h3 {
 	background-color:rgba(126,157,228,1);
 }
 .present .row{
-	margin: 30px 5%;
+	margin: 30px 10px;
 }
 .present h1, .present h2, .present h3, .present h4{
 	color:white;
 }
 
-
 @media (min-width: 992px) {
 	.present .row{
-		margin-left: 5%;
-		margin-right: 5%;
+		margin-left: 2%;
+		margin-right: 2%;
 	}
 }
 @media (min-width: 1200px) {
 	.present .row{
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-left: 5%;
+		margin-right: 5%;
 	}
 }
 
@@ -600,24 +599,61 @@ h1,h2,h3 {
 	width: 127px;
 }
 
+/*learnmore img manipulation*/
 .learnmore-device .concept img {
 	margin: 30px auto 40px auto;
 	width: 70%;
 	display: block;
+<<<<<<< HEAD
 	
+=======
+	margin: 10px auto 20px auto;
+	border-radius: 12px;
+	max-width: 100%;
+}
+
+.learnmore-device .present .row {
+	font: 0/0 a;
+>>>>>>> FETCH_HEAD
 }
 
 .learnmore-device .present .row{
 	text-align: left;
+>>>>>>> origin/master
 }
 
+<<<<<<< HEAD
 .learnmore-device .present img {
 	border-radius: 0px;
+=======
+.learnmore-device .present .row .text-div {
+	width:50%;
+	height: 100%;
+	display: inline-block;
+	vertical-align:middle;
+	text-align:left;
+>>>>>>> FETCH_HEAD
+}
+	
+.learnmore-device .present .row .img-div {
+	vertical-align:middle;
+	display:inline-block;
+<<<<<<< HEAD
+	vertical-align: left;
+=======
+	width: 50%;
 }
 
-.learnmore-device .present .col-xs-6{
-	display:inline-block;
-	vertical-align: left;
+.learnmore-device .present .row .img-div img {
+	display:block;
+	margin: auto auto;
+	border-radius: 12px;
+	max-height: 200px;
+}
+
+.learnmore-device .present .row .col-xs-12 {
+	margin: 0px 0px 10px 0px;
+>>>>>>> FETCH_HEAD
 }
 
 
