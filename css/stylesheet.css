@@ -644,36 +644,6 @@ h1,h2,h3 {
 }
 
 
-/*
-@media (max-width: 479px) {
-	.learnmore {
-	 font-size: 24px;
-	}
-}
-@media (min-width: 480px) and (max-width: 767px) {
-	.learnmore {
-	font-size: 24px;
-	}
-}
-@media (min-width: 768px) and (max-width: 991px) {
-	.learnmore {
-	font-size: 26px;
-	}
-}
-
-@media (min-width: 992px) {
-	.learnmore {
-		font-size: 28px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.learnmore {
-		font-size: 30px;
-	}
-} */
-
-
 
 
 /*map
