@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -10,7 +11,7 @@
 		<!--Font link via google fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 		
-    <title>LumenEd | Content</title>
+    <title>LumenEd | Device</title>
 
     <!-- Bootstrap core CSS -->	
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -29,7 +30,7 @@
   </head>
 <!-- NAVBAR
 ================================================== -->
-  <body>
+  <body class="learnmore learnmore-device">
 		<nav class="navbar navbar-default navbar-static-top" role="navigation">
 			<div class="container-fluid">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -68,12 +69,20 @@
 		<!-- Pages
 		================================================== -->
 		<!-- Cover Panel -->
+	<!--
+	<div  class="container-fluid title">
+				<div class="col-xs-12">
+					<h1><big>The Device</big></h1>
+			</div>
+		</div>
+-->
 		<div class="container-fluid concept">
 			<div class="row">
 				<div class="col-xs-12">
-				<h1><b>The Content</b></h1>
+				<h1>The Device</h1>
 				<img src="img/class_video.jpg" alt="device" class="img-responsive img-center"/>
-                    <h3>The internet has delivered a wealth of educational resources from various organizations. However, the overwhelming volume and lack of organization across sources can sometimes interrupt the learning process. Moreover, due to infrastructural limitations in developing countries, the majority of this content cannot be accessed by schools who need it the most.<br><br>At LumenEd, we compile this content from different open source providers and help teachers find the materials they need for their classrooms. Additionally, our unique platform enables classrooms to access this content without any stable electricity or internet connection. <br><br></h3>
+        <p>Integrating educational resources like YouTube or Khan Academy into classrooms isn’t possible in areas lacking electricity. At LumenEd, we are building technology that supports these activities anywhere in the world.</p>
+				<p>Previous efforts to introduce technology into schools have focused too much on gadgets and too little on teaching. Our goal was to break this habit, and design something completely from the ground-up for classrooms. Our result was a unique device built to display audiovisual content and to complement a video pen pal program.</p>
 				</div>
 			</div>
 		</div>
@@ -81,26 +90,39 @@
 		<!-- Device Details Panel-->
 		<div  class="container-fluid present">
 			<div class="row">
-				<div class="col-xs-6">
-					<div class="col-xs-12">
-					<h2>Digital Library</h2>
-					<h4>We've collected and organized over 1500 videos across a range of grades and core subjects in several different languages. We work with teachers to provide content that is best suited for each age group in each location. Our library is constantly expanded and updated as we collect more open source content. </h4>
-				</div>
 				<div class="col-xs-12">
-					<h2>Dynamic Playback</h2>
-          <h4>A simple, searchable database allows our teachers to quickly find videos they need for their classrooms. Content is organized by grade, language, subject, topic, and length, allowing highly specific searches for content.<h4>
+					<div class="text-div">
+						<div class="col-xs-12">
+							<h1>Built to work anywhere</h1>
+							<p>The Bright Orange Box allows teachers to teach, and students to learn, without worrying about technology, internet, electricity, or anything else. The device runs on an internal lithium ion battery. It can be charged from a wall outlet or with a portable solar kit, and doesn't require any special installation in the classroom. It works just as well in a modern city as in a rural village.</p>
+						</div>
+						<div class="col-xs-12">
+							<h1>Designed for the classroom</h1>
+							<p>The Box is designed with a classroom in mind. With a powerful projector and stereo speakers, you'll never have to worry about kids at the back of the classroom not being able to see or hear. It’s small, light, and durable case allows teachers to carry the device in and out of classrooms.</p>
+						</div>
+					</div>
+					<div class="img-div lg">
+						<img src="img/class_video.jpg" alt="device" class="img-responsive"/>
+					</div>
 				</div>
+				<img src="img/class_video.jpg" alt="device" class="img-responsive sm md"/>
 				<div class="col-xs-12">
-					<h2>Customized for Any Need</h2>
-         <!-- <h4>We don't believe their is a "one fit all" model for content.  While we can have mapped content to fit into our teachers corriculum we also try to to find things in a more personal way. <h4> -->
-         		<h4>For content to be effective in the classroom, it must adapt to the needs of the teacher, rather than the other way around. We recognize that different teaching styles lend themselves to different needs of materials. That’s why we work with teachers to map our content to their existing curricula.</h4>
-				</div>
-				<div class="col-xs-12">
-					<h2>Content Anywhere</h2>
-          <h4>A unique content storage and delivery system allows our content library to reach anyone in any location. All content is stored on hot swappable flash drives, and can be updated on personal computers or mailed to areas without internet.</h4>
-				</div>
-				<div class="col-xs-6">
-					<img src="img/device_1.jpg" alt="device" class="img-responsive img-center"/>
+					<div class="img-div lg">
+						<img src="img/class_video.jpg" alt="device" class="img-responsive"/>
+					</div>
+					<div class="text-div">
+						<div class="col-xs-12">
+							<h1>Easy to use</h1>
+							<p>Our custom touchscreen interface is simple and intuitive, accessible to those with limited exposure to technology. The interface only includes the essentials, and does not require a keyboard or mouse.</p>
+						</div>
+						<div class="col-xs-12">
+							<h1>Two-way street</h1>
+							<p>We believe motivated learning is a two-way street. A camera and microphone on the back of the device are used for our video <a href="penpal.html">pen pal program</a>, which establishes relationships between classrooms from around the world.<p>
+						</div>
+					</div>
+					<!-- <div class="xs sm md">
+						<img src="img/class_video.jpg" alt="device" class="img-responsive"/>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -109,18 +131,15 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<h1>What's Next</h1>
-                    <h3>We are working with new partners in education to expand our content library. We hope to continue to source more content and someday have dedicated contributors to reach a wider audience. This is especially the case with languages other than English, which are often the native languages in developing nations.</h3>
-					<h3>In order to make our model more scalable and to increase access to our content library, we need to develop a web portal that would allow anyone with internet to quickly find relevant content. This would allow teachers with access to internet to easily find source content for their classrooms. Finally, since we believe content should be available to anyone, we will soon be establishing routing stations to download and mail content to users who lack access to internet. </h3>
+          <p>While the Bright Orange Box is our proof-of-concept, we are developing a more scalable platform. This involves redesigning the device to be manufactured, to reduce costs and refine the device. We are also exploring additional technologies that could impact learning outcomes in classrooms. This will complete our vision of a powerful, cost-effective, portable, and power efficient device built from scratch for the classroom.</p>
 				</div>
 			</div>
 		</div>
-				<div class="col-xs-12">
-					<center><a href="index.php#contact" class="btn btn-primary btn-lg contact-btn" role="button">Get in touch</a></center>
-				</div>
+			<div class="col-xs-12">
+				<a href="index.php#contact" class="btn btn-primary btn-lg contact-btn" role="button">Get in touch</a> 
 			</div>
-		
-<!--Footer
-================================================== -->
+		</div>
+
 		<footer>
 			<p class="pull-right"><a href="#">Back to top</a></p>
 			<p>&copy; 2014 LumenEd, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>

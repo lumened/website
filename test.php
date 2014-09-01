@@ -89,7 +89,7 @@
 				<div class="col-xs-12">
 					<h1>We bring better learning to the classroom
 					through an accessible education platform
-					that brings communities together</h1>
+					that brings communities together.</h1>
 				</div>
 			</div>
 			<div class="row sm md lg">
@@ -226,7 +226,7 @@
 		<div class="container-fluid penpal-before">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>Everything comes together with our video pen pal program that focuses on building lasting relationships between distant communities.</h1>
+					<h1>Everything comes together with our video pen pal program, which focuses on building lasting relationships between distant communities.</h1>
 				</div>
 			</div>
 		</div>
