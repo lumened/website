@@ -239,7 +239,7 @@
 					<h1>The Pen Pal Program</h1>
 					<p>Better learning involves taking students beyond the four walls of their classroom and engaging them with the global community.</p>
 					<p>The pen pal program connects classrooms in different countries to exchange their knowledge, stories and life experiences through weekly video exchanges.</p> 
-					<div class="button-div"><a class="btn btn-primary btn-md" role="button" href="program.html">Learn more</a></div>
+					<div class="button-div"><a class="btn btn-primary btn-md" role="button" href="penpal.html">Learn more</a></div>
 				</div>
 			</div>
 		</div>
@@ -313,7 +313,7 @@
 			</form>
 			<?php
 			//Configuration Options
-			$sendTo = 'total.prakash@gmail.com';
+			$sendTo = 'contact@lumened.org';
 			$subjectPrepend = "From contact form: ";
 			$invalidEmail = "<h3>Please enter a valid Email Address</h3>";
 			$success = "<h3>Thanks for the message. We'll get in touch with you shortly.</h3>";
