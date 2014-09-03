@@ -87,7 +87,7 @@
 		<div class="container-fluid mission">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>We bring better learning to the classroom
+					<h1>We make better learning possible
 					through an accessible education platform
 					that brings communities together.</h1>
 				</div>
@@ -169,7 +169,7 @@
 					<h1>The Content</h1>
 					<p>We source a wealth of diverse and engaging videos from open source content providers. By mapping this content to existing educational standards, like the CBSE or Common Core, teachers can easily find the materials they need.</p>					
 					
-				<p>Our platform also lets teachers browse, add, or remove content themselves, all through the device's interface. This allows teachers to seamlessly integrate new material when lesson plans change.</p>					<div class="button-div"><a class="btn btn-primary btn-md" role="button" href="content.html">Learn more</a></div>
+				<p>Our platform also lets teachers browse, add, or remove content themselves. This allows teachers to seamlessly integrate new material when lesson plans change.</p>					<div class="button-div"><a class="btn btn-primary btn-md" role="button" href="content.html">Learn more</a></div>
 				</div>
 			</div>
 		</div>
