@@ -1,0 +1,30 @@
+//==buttons
+//button border radius
+@border-radius-base:        3px;
+@border-radius-large:       3px;
+@border-radius-small:       3px;
+
+@btn-font-weight:                normal;
+
+@btn-primary-color:              #fff;
+@btn-primary-bg:                 @brand-primary;
+@btn-primary-border:             darken(@btn-primary-bg, 5%);
+
+//Buttons
+.btn-transparent {
+	.button-variant(white, transparent, white)
+}
+.btn-transparent:hover {
+	color:black;
+	background-color: white;
+}
+.btn-blue {
+	.button-variant(@secondary, transparent, @secondary)
+}
+.btn-blue:hover {
+	color: White;
+	background-color: @secondary;
+}
+.btn-orange {
+	.button-variant(white, @primary, transparent)
+}
