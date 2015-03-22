@@ -8,18 +8,18 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">
-				<img class="logo" src="img/text_logo.png" alt="Logo">
+			<a class="navbar-brand" href="index.php">
+				<img class="logo" src="img/lumened-text-logo2.png" alt="Logo">
 			</a>
 		</div>
 
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-			<li><a href="#">About</a></li>
-			<li><a href="http://blog.lumened.org" target="_blank">Blog</a></li>
-			<li><a href="#">Contact</a></li>
-			<li><a href="#">Press</a></li>
+			<li><a href="penpal.php">Pen Pal Program</a></li>
+			<li><a href="box.php">Box</a></li>
+			<li><a href="about.php">About</a></li>
+			<li><a href="press.php">Press</a></li>
 			<li class="dropdown">
 	</li>
 		</ul>

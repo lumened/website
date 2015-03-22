@@ -1,11 +1,19 @@
 //==colors
 //Single primary color that all mixins use
 @primary: rgba(247,192,66,1);
-@secondary: rgba(126,157,228,1);
-
+@secondaryLight: rgba(126,157,228,1);
+@secondary: darken(@secondaryLight, 20%);;
 // Primary Variants
 @primaryDark: rgba(247,148,29,1);
+@secondaryDark: darken(@secondary, 10%);
 
-@brand-primary: @primary;
+@link-color: @secondary;
 
 
+@black: darken(white, 90%);
+
+@off-white: #eee;
+
+
+// //line stuff
+// @headings-line-height:    1.4;

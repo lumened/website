@@ -1,26 +1,430 @@
-//Cover Page
+//Global
+//types of containers
+.white-panel { background-color: white; color: @secondary; }
+.grey-panel { background-color: @off-white; color: @secondary; }
+.blue-panel { background-color: @secondaryLight; color: white; }
+.orange-panel { background-color: @primaryDark; color: white; }
+.picture-panel {color: white;}
+
+.grey-panel, .white-panel, .blue-panel {
+	border-bottom: 1px solid Darken(@off-white, 10%);
+}
+
+//flow panels
+.grey-panel, .white-panel, .orange-panel, .blue-panel, .container{
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+
+.heading{
+	.row-margin();
+}
+.row-margin {
+	.row-margin();
+}
+
+//Cover
 .cover {
-	height: 500px;
+	min-height: 350px;
+	color: white;
+	@media (min-width:@screen-tablet) {
+	min-height: 550px;
+	}
+}
+
+.home-page .cover{
+	@media (min-width:@screen-tablet) {
+	min-height: 500px;
+	}
 }
 
 .cover h1 {
+	padding-top: 75px;
+	padding-bottom: 80px;
+	@media (min-width:@screen-tablet) {
+	padding-top: 150px;
+	padding-bottom: 100px;
+	font-size:36px;
+	}
+	@media (min-width:@screen-desktop) {
+	font-size:48px;
+	}
+	@media (min-width:@screen-lg-desktop){
+	}
+}
+
+.home-page .cover h1, .press-page .cover h1{
+	padding-top: 145px;
+	padding-bottom: 50px;
+	@media (min-width:@screen-tablet) {
 	padding-top: 200px;
-	padding-bottom: 30px;
-	color: white;
+	padding-bottom: 90px;
+	}
 }
 
-.cover .btn {
+.cover-sub-heading{
+	padding-bottom: 35px;
+	font-size: 20px;
+	display: hidden;
+	@media (min-width:@screen-tablet) {
+	font-size: 26px;
+	padding-bottom: 60px;
+	}
+	@media (min-width:@screen-desktop) {
+	font-size:28px;
+	}
+	@media (min-width:@screen-lg-desktop){
+	font-size: 30px;
+	}
+}
+
+.press-page .btn {
+	margin-top: 250px;
+	@media (min-width:@screen-tablet) {
+	margin-top: 400px;
+	}
+}
+
+// .home-page .cover .btn {
+	// margin-right: 20px;
+// }
+
+.home-page .cover-mobile {
+	background: url(../img/penpal_header2.jpg) no-repeat scroll 0px 10% / cover transparent;
+}
+
+.about-page .cover {
+	background: url(../img/team_header.jpg) no-repeat scroll 0px 10% / cover transparent;
+}
+.penpal-page .cover {
+	background: url(../img/penpal_header2.jpg) no-repeat scroll 0px 50% / cover transparent;
+}
+.box-page .cover {
+	background: url(../img/bob_header.jpg) no-repeat scroll 0px 50% / cover transparent;
+}
+.press-page .cover {
+	background: url(../img/press_banner.jpg) no-repeat scroll 0px 50% / cover transparent;
+}
+
+//home-page video
+.home-page .cover-overlay {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.home-page #video-play {
+	position: relative;
+    padding-bottom: 56%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+	@media (min-width:@screen-desktop){
+	padding-bottom:50%;
+	}
+	@media (min-width:@screen-lg-desktop){
+	padding-bottom:40%;
+	}
+}
+
+#video-play iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+//three things
+.three-things h3 {
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+	@media (min-width:@screen-phone) {
+	font-size: 20px;
+	}
+	@media (min-width:@screen-tablet){
+	font-size: 22px;
+	}
+	@media (min-width:@screen-desktop){
+	font-size: 27px;
+	}
+	@media (min-width:@screen-lg-desktop){
+	}
+}
+
+.three-things p {
+	font-weight: 300;
+	font-size: 14px;
+	margin-bottom: 25px;
+	margin-left: 20px;
 	margin-right: 20px;
+	@media (min-width:@screen-phone) {
+	margin-left: 0px;
+	margin-right: 0px;
+	}
+	@media (min-width:@screen-tablet) {
+	}
+	@media (min-width:@screen-desktop) {
+	font-size: 16px;
+	}
+	@media (min-width:@screen-lg-desktop){
+	font-size: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+}
+.three-things {
+	@media (min-width:@screen-phone) and (max-width:@screen-xs-max) {
+	margin-left: 25%;
+	margin-right: 25%;
+	}
+	@media (min-width:@screen-lg-desktop){
+	margin-left: 8%;
+	margin-right: 8%;
+	}
+}
+.three-things .col-sm-4{
+	margin-bottom: 40px;
+	@media (min-width:@screen-tablet) {
+	margin-bottom: 0px;
+	}
 }
 
-//all container margins
-.container {
-	padding-top: 30px;
-	padding-bottom: 30px;
+//Detail Panel
+.detail-panel img {
+	@media (max-width:@screen-tablet) {
+		margin: 30px auto;
+	}
+}
+
+
+//Aboutus
+.about-page .social {
+	margin-bottom: 40px;
+}
+
+.about-page .social img, .about-page .team-ovals img{
+	display: inline;
+}
+
+.about-page .team-ovals img{
+	max-width: 120px;
+	max-height: 120px;
+	@media (min-width:@screen-desktop) {
+		max-width: 130px;
+		max-height: 130px;
+	}
+	@media (min-width:@screen-lg-desktop) {
+		max-width: 150px;
+		max-height: 150px;
+	}
+}
+
+.about-page .team-ovals .glyphicon {
+		color: black;
+		font-size: 20px;
+}
+.about-page .team-ovals .glyphicon:hover {
+		color: black;
+}
+
+.about-page .social img:hover{
+	opacity: 0.8;
+}
+.about-page .team-ovals img:hover{
+	opacity: 0.7;
+}
+
+.about-page .color-black{
+	color:black;
+}
+
+.about-page .detail-pic-row img{
+	margin-bottom: 30px;
+	display: inline;
+	@media (max-width:@screen-sm-max){
+	max-width:80%;
+	}
+}
+.about-page .team-ovals {
+	@media (min-width:@screen-lg-desktop){
+	margin-left: 10%;
+	margin-right: 10%;
+	}
+}
+.about-page .summary-panel .team-ovals h4{
+	text-align: center;
+	font-weight: 400;
+	padding-bottom: 3px;
+	@media (min-width:@screen-tablet){
+	font-size: 14px;
+	}
+	@media (min-width:@screen-desktop){
+	font-size: 18px;;
+	}
+	@media (min-width:@screen-lg-desktop){
+	font-size: 18px;
+	}
+}
+.about-page .summary-panel .team-ovals p{
+	padding-bottom: 3px;
+}
+
+
+//penpal-page
+.penpal-page .detail-panel .col-sm-6{
+	@media (min-width:@screen-phone) and (max-width:@screen-xs-max) {
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+	}
+	@media (min-width:@screen-tablet){
+	padding-left: 5%;
+	padding-right: 5%;
+	}
+	@media (min-width:@screen-desktop){
+	padding-left: 8.33%;
+	padding-right: 8.33%;
+	}
+}
+.penpal-page .detail-panel .col-sm-6{
+	@media (max-width:@screen-xs-max) {
+	margin-bottom: 30px;
+	}
+}
+
+.penpal-page .summary-panel h4, .about-page .summary-panel h4, .about-page .detail-panel h4{
+	text-align:justify;
+	@media (max-width:@screen-phone) {
+	padding-left: 5%;
+	padding-right: 5%;
+	}
+	@media (min-width:@screen-phone) and (max-width:@screen-xs-max) {
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+	}
+}
+
+.picture-panel {
+	min-height: 350px;
+	@media (min-width:@screen-lg-desktop){
+	min-height: 400px;
+	}
+}
+.penpal-pic-1 {
+	background: url(../img/class_video.jpg) no-repeat top center fixed;
+}
+.penpal-pic-2 {
+	background: url(../img/class_map.jpg) no-repeat top center fixed;
+}
+
+
+.penpal-page .penpal-pic-1 .row .col-sm-8 {
+	margin-top: 105px;
+	@media (min-width:@screen-tablet) {
+	margin-top: 118px;
+	}
+	@media (min-width:@screen-desktop) {
+	margin-top: 109px;
+	}
+	@media (min-width:@screen-lg-desktop){
+	margin-top: 134px;
+	}
+}
+
+.penpal-page .penpal-pic-2 .row .col-sm-8 {
+	margin-top: 105px;
+	@media (min-width:@screen-tablet) {
+	margin-top: 118px;
+	}
+	@media (min-width:@screen-desktop) {
+	margin-top: 109px;
+	}
+	@media (min-width:@screen-lg-desktop){
+	margin-top: 134px;
+	}
+}
+.penpal-page .picture-panel h3{
+	@media (min-width:@screen-lg-desktop){
+		font-size:28px;
+	}
+}
+
+.penpal-page .heading{
+	margin-bottom: 15px;
+}
+
+.penpal-page .penpal-mobile h3{
+	@media (max-width:@screen-phone){
+		font-size: 18px;
+	}
+}
+
+//box-page
+.box-page .detail-panel h3 {
+	@media (min-width:@screen-lg-desktop){
+		margin-bottom: 30px;
+	}
+}
+.box-page .detail-panel h4 {
+	 @media (min-width:@screen-tablet) and (max-width:@screen-sm-max){
+		font-size: 16px;
+	}
+}
+
+.box-page .detail-panel{
+	@media (min-width:@screen-phone) and (max-width:@screen-xs-max) {
+	padding-left: 12.5%;
+	padding-right: 12.5%;
+	}
+}
+
+.box-page .newbox-panel h4{
+	line-weight: 1.6;
+}
+
+.box-page h4{
+	@media (max-width:@screen-phone) {
+	text-align: justify;
+	padding-left: 5%;
+	padding-right: 5%;
+	}
+}
+
+
+//press page
+.press-page .inthepress-panel img{
+	display:inline;
+	max-width: 200px;
+}
+
+.press-page .inthepress-panel {
+	text-align:center;
+	@media (min-width:@screen-tablet) {
+	}
+	@media (min-width:@screen-desktop) {
+	text-align: left;
+	}
+	@media (min-width:@screen-lg-desktop){
+	}
+}
+
+@media (min-width:@screen-tablet) {
+	//vertically align pic with text in panel
+	.vertical-parent:before{
+		display: inline-block;
+		vertical-align:middle;
+		height: 100%;
+	}
+	.vertical-parent > div{
+		display: inline-block;
+		vertical-align: middle;
+		float:none;
+	}
 }
 
 //footer
 footer p{
-	margin: auto 30px;
+	margin: auto 10px;
 	font-size: 14px;
 }
+
+footer {background-color: @primaryDark; color:white;}

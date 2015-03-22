@@ -1,6 +1,94 @@
 
+//size specific controls
+
+@media (max-width:@screen-xs-max) {
+	.sm, .md, .lg {display:none;}
+	.xs{display:block;}
+}
+@media (min-width:@screen-sm) and (max-width:@screen-sm-max){
+	.xs, .md, .lg {display:none;}
+	.sm{display:block;}
+}
+@media (min-width:@screen-md) and (max-width:@screen-md-max){
+	.sm, .xs, .lg {display:none;}
+	.md{display:block;}
+}
+@media (min-width:@screen-lg){
+	.sm, .md, .xs {display:none;}
+	.lg{display:block;}
+}
+
+
+
 //==fonts
 //font
 @font-family-sans-serif:  "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 //** By default, this inherits from the `<body>`.
 @headings-font-weight:    300;
+
+// @font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
+// @font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
+// @font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
+// @font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
+// @font-size-h5:            @font-size-base;
+// @font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px
+
+
+@font-size-h1:            48px;
+@font-size-h2:            36px;
+@font-size-h3:            28px;
+@font-size-h4:            24px;
+@font-size-h5:            18px;
+@font-size-h6:            14px;
+
+h1 {font-size:30px;}
+h2 {font-size:26px;}
+h3 {font-size:22px;}
+h4 {font-size:16px;}
+h5 {font-size:14px;}
+h6 {font-size:12px;}
+
+@media (min-width:@screen-phone){
+h1 {font-size: ;}
+h2 {font-size: ;}
+h3 {font-size:24px;}
+h4 {font-size:18px;}
+h5 {font-size: ;}
+h6 {font-size: ;}
+}
+@media (min-width:@screen-tablet) {
+h1 {font-size:48px;}
+h2 {font-size:36px;}
+h3 {font-size:22px;}
+h4 {font-size:18px;}
+h5 {font-size:16px;}
+h6 {font-size:14px;}
+}
+@media (min-width:@screen-desktop) {
+h1 {font-size: ;}
+h2 {font-size: ;}
+h3 {font-size:28px;}
+h4 {font-size:20px;}
+h5 {font-size: ;}
+h6 {font-size: ;}
+}
+@media (min-width:@screen-lg-desktop){
+h1 {font-size: ;}
+h2 {font-size: ;}
+h3 {font-size:36px;}
+h4 {font-size:24px;}
+h5 {font-size: ;}
+h6 {font-size: ;}
+}
+
+p{
+	font-size:	14px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+	margin: 0px 0px;
+}
+
+h3, h4, h5, h6, p {
+	line-height: 1.4;
+}

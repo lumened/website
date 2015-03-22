@@ -11,6 +11,10 @@
 @btn-primary-border:             darken(@btn-primary-bg, 5%);
 
 //Buttons
+.btn {
+	transition: all .5s;
+}
+
 .btn-transparent {
 	.button-variant(white, transparent, white)
 }
@@ -23,7 +27,7 @@
 }
 .btn-blue:hover {
 	color: White;
-	background-color: @secondary;
+	background-color: @secondaryLight;
 }
 .btn-orange {
 	.button-variant(white, @primary, transparent)

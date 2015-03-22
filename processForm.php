@@ -1,15 +1,15 @@
 <?php
 // Define some constants
-define( "RECIPIENT_NAME", "LumenEd Inc." );
+define( "RECIPIENT_NAME", "LumenEd Contact" );
 define( "RECIPIENT_EMAIL", "contact@lumened.org" );
-$subjectPrepend = "From contact form: ";
+$subjectPrepend = "LumenEd Contact Form";
 
 // Read the form values
 $success = false;
 $senderName = isset( $_POST['senderName'] ) ? preg_replace( "/[^\.\-\' a-zA-Z0-9]/", "", $_POST['senderName'] ) : "";
 $senderEmail = isset( $_POST['senderEmail'] ) ? preg_replace( "/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['senderEmail'] ) : "";
 $subject = $subjectPrepend;
-$subject .= isset( $_POST['subject'] ) ? preg_replace( "/[^\.\-\' a-zA-Z0-9]/", "", $_POST['subject'] ) : "";
+// $subject .= isset( $_POST['subject'] ) ? preg_replace( "/[^\.\-\' a-zA-Z0-9]/", "", $_POST['subject'] ) : "";
 $message = isset( $_POST['message'] ) ? preg_replace( "/(From:|To:|BCC:|CC:|Subject:|Content-Type:)/", "", $_POST['message'] ) : "";
 
 // If all values exist, send the email

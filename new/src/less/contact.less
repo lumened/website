@@ -1,14 +1,33 @@
-//contact
-.contact, footer{
-	background-color: @secondary;
-	color: white;
+.contact .heading {
+	margin-bottom: 15px;
 }
+
 #contactForm .input-group {
-	width: 100%;
+	width: 80%;
 	display: block;
-	margin: auto auto;
+	margin: 20px auto;
+	@media (min-width:@screen-phone) {
+	
+	}
+	@media (min-width:@screen-tablet){
+	
+	}
+	@media (min-width:@screen-desktop){
+	width: 50%;
+	}
+	@media (min-width:@screen-lg-desktop){
+	}
 }
 #contactForm .btn {
-	width: 100%;
-	text-align:center;
+	font-size: 18px;
+	margin-top: 20px;
+	width: 150px;
+}
+
+#contactForm .form-control {
+	border-radius: 4px;
+}
+
+.contact .statusMessage {
+  display: none;
 }
