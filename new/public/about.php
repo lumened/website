@@ -21,12 +21,12 @@ $page_description = "About Us";
 		</div>
 		
 		<div class="container-fluid summary-panel white-panel">
-			<div class="row social text-center">
-					<a href="http://www.facebook.com/lumenedinc"><img class="img-responsive" src="img/fb.png"></a>
-					<a href="http://www.twitter.com/lumened"><img class="img-responsive" src="img/tw.png"></a>
-					<a href="http://blog.lumened.org"><img class="img-responsive" src="img/tb.png"></a>
-					<!-- <a href="http://www.linkedin.com/company/lumened"><img class="img-responsive" src="img/li.png"></a> -->
-					<a href="http://www.youtube.com/user/lumenedchannel"><img class="img-responsive" src="img/yt.png"></a>
+			<div class="row row-margin social text-center">
+					<a href="http://www.facebook.com/lumenedinc"><img class="img-responsive" src="img/fb.png" target="_blank"></a>
+					<a href="http://www.twitter.com/lumened"><img class="img-responsive" src="img/tw.png" target="_blank"></a>
+					<a href="http://blog.lumened.org"><img class="img-responsive" src="img/tb.png" target="_blank"></a>
+					<!-- <a href="http://www.linkedin.com/company/lumened"><img class="img-responsive" src="img/li.png" target="_blank"></a> -->
+					<a href="http://www.youtube.com/user/lumenedchannel"><img class="img-responsive" src="img/yt.png" target="_blank"></a>
 			</div>
 			<div class="row text-center">
 				<div class="col-xs-12">
@@ -40,34 +40,34 @@ $page_description = "About Us";
 			</div>
 			<div class="row team-ovals lg md sm text-center">
 				<div class="col-sm-2 col-sm-offset-1 text-center">
-					<a href="mailto:prakash@lumened.org"><img class="img-circle img-responsive" src="img/Optimized-pp.jpg" alt="Pen Pal Oval" width=130px; height=130px;></a>
+					<a href="mailto:prakash@lumened.org" target="_blank"><img class="img-circle img-responsive" src="img/Optimized-pp.jpg" alt="Pen Pal Oval"></a>
 					<h4>Prakash Paudel</h4>
 					<p>CEO</p>
-					<p><a href="http://www.linkedin.com/in/ppaudel"><img class="img-responsive" width=20px; src="img/li-square.png"></a> &nbsp;&nbsp;<a href="mailto:prakash@lumened.org"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
+					<p><a href="http://www.linkedin.com/in/ppaudel" target="_blank"><img class="img-responsive" width=20px; src="img/li-square.png"></a> &nbsp;&nbsp;<a href="mailto:prakash@lumened.org" target="_blank"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
 				</div>
 				<div class="col-sm-2 text-center">
-					<a href="mailto:henry@lumened.org"><img class="img-circle img-responsive" src="img/Optimized-hh.jpg" alt="Pen Pal Oval" width=130px; height=130px;></a>
+					<a href="mailto:henry@lumened.org" target="_blank"><img class="img-circle img-responsive" src="img/Optimized-hh.jpg" alt="Pen Pal Oval"></a>
 					<h4>Henry Harboe</h4>
 					<p>Business Development</p>
-					<p><a href="http://www.linkedin.com/profile/view?id=223587629"><img class="img-responsive" width=20px; src="img/li-square.png"></a> &nbsp;&nbsp;<a href="mailto:henry@lumened.org"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
+					<p><a href="http://www.linkedin.com/pub/henry-b-harboe/62/a66/ba5/en" target="_blank"><img class="img-responsive" width=20px; src="img/li-square.png"></a> &nbsp;&nbsp;<a href="mailto:henry@lumened.org" target="_blank"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
 				</div>
 				<div class="col-sm-2 text-center">
-					<a href="mailto:thomas@lumened.org"><img class="img-circle img-responsive" src="img/Optimized-tk.jpg" alt="Pen Pal Oval" width=130px; height=130px;></a>
+					<a href="mailto:thomas@lumened.org" target="_blank"><img class="img-circle img-responsive" src="img/Optimized-tk.jpg" alt="Pen Pal Oval"></a>
 					<h4>Thomas Kreek</h4>
 					<p>Product Engineer</p>
-					<p><a href="mailto:thomas@lumened.org"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
+					<p><a href="mailto:thomas@lumened.org" target="_blank"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
 				</div>
 				<div class="col-sm-2 text-center">
-					<a href="mailto:vmandala@oberlin.edu"><img class="img-circle img-responsive" src="img/Optimized-sm.jpg" alt="Pen Pal Oval" width=130px; height=130px;></a>
+					<a href="mailto:vmandala@oberlin.edu" target="_blank"><img class="img-circle img-responsive" src="img/Optimized-sm.jpg" alt="Pen Pal Oval"></a>
 					<h4>Shiva Mandala</h4>
 					<p>Program Manager</p>
-					<p><a href="http://www.linkedin.com/in/venkatashivamandala"><img class="img-responsive" width=20px; src="img/li-square.png"></a> &nbsp;&nbsp;<a href="mailto:vmandala@oberlin.edu"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
+					<p><a href="http://www.linkedin.com/in/venkatashivamandala" target="_blank"><img class="img-responsive" width=20px; src="img/li-square.png"></a> &nbsp;&nbsp;<a href="mailto:vmandala@oberlin.edu" target="_blank"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
 				</div>
 				<div class="col-sm-2 text-center">
-					<a href="mailto:skhosla@oberlin.edu"><img class="img-circle img-responsive" src="img/Optimized-sk.jpg" alt="Pen Pal Oval" width=130px; height=130px;></a>
+					<a href="mailto:skhosla@oberlin.edu" target="_blank"><img class="img-circle img-responsive" src="img/Optimized-sk.jpg" alt="Pen Pal Oval"></a>
 					<h4>Saksham Khosla</h4>
 					<p>Media Outreach</p>
-					<p><a href="http://www.linkedin.com/in/sakshamkhosla"><img class="img-responsive" width=20px; src="img/li-square.png"></a> &nbsp;&nbsp;<a href="mailto:skhosla@oberlin.edu"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
+					<p><a href="http://www.linkedin.com/in/sakshamkhosla" target="_blank"><img class="img-responsive" width=20px; src="img/li-square.png"></a> &nbsp;&nbsp;<a href="mailto:skhosla@oberlin.edu" target="_blank"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
 				</div>
 			</div>
 		</div>

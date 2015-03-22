@@ -94,7 +94,7 @@ $page_description = "The Bright Orange Box is a learning tool that brings digita
 					<h3 class="heading">Full Specifications</h3>
 				</div>
 			</div> -->
-			<div class="row row-margin">
+			<div class="row">
 				<div class="col-sm-5 col-sm-offset-1 text-center">
 					<img class="img-responsive" src="img/render-front.png"/>
 				</div>
@@ -121,7 +121,7 @@ $page_description = "The Bright Orange Box is a learning tool that brings digita
 		</div>
 		
 		<?php $contact_header = "Sponsor a Box";
-		$contact_subheader = "Write to us to bring the Bright Orange Box to a under-resourced classroom you know.";?>
+		$contact_subheader = "Write to us to bring the Bright Orange Box to an under-resourced classroom";?>
 		
 		<?php include ('includes/contact.php');?>
 		

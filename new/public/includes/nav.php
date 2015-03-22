@@ -8,7 +8,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.php">
+			<a class="navbar-brand" href="/newsite">
 				<img class="logo" src="img/lumened-text-logo2.png" alt="Logo">
 			</a>
 		</div>
@@ -16,10 +16,10 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-			<li><a href="penpal.php">Pen Pal Program</a></li>
-			<li><a href="box.php">Box</a></li>
-			<li><a href="about.php">About</a></li>
-			<li><a href="press.php">Press</a></li>
+			<li><a href="penpal">Pen Pal Program</a></li>
+			<li><a href="box">Box</a></li>
+			<li><a href="about">About</a></li>
+			<li><a href="press">Press</a></li>
 			<li class="dropdown">
 	</li>
 		</ul>

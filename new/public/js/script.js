@@ -24,12 +24,13 @@ $(window).on('scroll',function(){
 });
 
 //video play
-function unhide(divID, otherDivId) {
+function unhide(divID, otherDivId, otherDiv2Id) {
     var item = document.getElementById(divID);
     if (item) {
-            item.className=(item.className=='container-fluid row hidden')?'container-fluid row unhidden':'container-fluid row hidden';
+            item.className=(item.className=='container-fluid hidden')?'container-fluid unhidden':'container-fluid hidden';
         }
         document.getElementById(otherDivId).className = 'container-fluid cover row hidden';
+		document.getElementById(otherDiv2Id).className = 'container-fluid cover row hidden';
 	$("#myplayer")[0].src += "&autoplay=1";
 }
 

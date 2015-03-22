@@ -511,7 +511,7 @@ function onYouTubePlayerAPIReady() {
 
                     var videoData = data.data;
 
-                    YTPlayer.title = videoData.title;
+                    YTPlayer.title = "";
                     YTPlayer.videoData = videoData;
 
                     if (YTPlayer.opt.ratio == "auto")

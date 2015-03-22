@@ -10,7 +10,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<form id="contactForm" action="processForm.php" method="post">
+		<form id="contactForm" action="includes/processForm.php" method="post">
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="input-group">
@@ -39,15 +39,15 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row row-margin">
 					<div id="formButtons">
 						<p class="text-center"><input type="submit" id="sendMessage" name="sendMessage" class="btn btn-transparent" role="button" Value="Send"/></p>
 					</div>
 				</div>
 			</form>
 	</div>
-	<div id="sendingMessage" class="statusMessage"><h3>Sending your message...</h3></div>
-	<div id="successMessage" class="statusMessage"><h3>Thanks for the message! We'll get back to you shortly.</h3></div>
-	<div id="failureMessage" class="statusMessage"><h3>Oops, looks like something went wrong. You can email us at contact@lumened.org with your message instead.</h3></div>
-	<div id="incompleteMessage" class="statusMessage"><h3>Please complete all the fields before sending.</h3></div>
+	<div id="sendingMessage" class="statusMessage"><h3 class="text-center">Sending your message...</h3></div>
+	<div id="successMessage" class="statusMessage"><h3 class="text-center">Thanks for the message! We'll get back to you shortly.</h3></div>
+	<div id="failureMessage" class="statusMessage"><h3 class="text-center">Oops, looks like something went wrong. You can email us at contact@lumened.org with your message instead.</h3></div>
+	<div id="incompleteMessage" class="statusMessage"><h3 class="text-center">Please complete all the fields before sending.</h3></div>
 </div>
