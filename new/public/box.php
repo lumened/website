@@ -102,8 +102,8 @@ $page_description = "The Bright Orange Box is a learning tool that brings digita
 					<img class="img-responsive" src="img/render-back.png"/>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-sm-4 col-sm-offset-2 text-left">
+			<div class="row specs">
+				<div class="col-sm-4 col-sm-offset-2">
 					<h4>500 lumen projector</h4>
 					<h4>8W stereo speakers</h4>
 					<h4>7" 720p touchscreen</h4>
@@ -111,7 +111,7 @@ $page_description = "The Bright Orange Box is a learning tool that brings digita
 					<h4>Dual microphones</h4>
 				</div>
 				
-				<div class="col-sm-4 col-sm-offset-1 text-left">
+				<div class="col-sm-4 col-sm-offset-1">
 					<h4>WiFi b/g/n + BT 4.0</h4>
 					<h4>3G GSM/CDMA Modem</h4>
 					<h4>77Wh Battery</h4>

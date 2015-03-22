@@ -198,12 +198,6 @@
 
 
 //Aboutus
-.about-page .summary-panel{
-	margin-top
-}
-// .about-page .social {
-	// margin-bottom: 40px;
-// }
 
 .about-page .social img, .about-page .team-ovals img{
 	display: inline;
@@ -373,7 +367,14 @@
 }
 
 .box-page .newbox-panel h4{
-	line-weight: 1.6;
+	line-height: 1.6;
+}
+
+.box-page .specs h4{
+	@media (max-width:@screen-xs-max) {
+		text-align: center;
+	}
+	text-align: left;
 }
 
 .box-page h4{
