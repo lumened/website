@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="<?php $page_description; ?>">
 		<meta name="author" content="LumenEd, Inc">
-		<!-- <link rel="shortcut icon" href="img/logo.jpg"> -->
+		<link rel="shortcut icon" href="img/logo.jpg">
 		<!--Font link via google fonts-->
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 			

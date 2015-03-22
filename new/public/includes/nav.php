@@ -8,7 +8,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="/newsite">
+			<a class="navbar-brand" href="/">
 				<img class="logo" src="img/lumened-text-logo2.png" alt="Logo">
 			</a>
 		</div>
