@@ -14,7 +14,7 @@ $page_description = "Want to write about us? Get in touch";
 			</div> -->
 			<div class="row text-center">
 				<div class="col-xs-12">
-					<a class="btn btn-transparent btn-lg" role="button" href="#contact">Media Inquiry</a>
+					<a class="btn btn-transparent btn-lg" role="button" href="LumenEdPressKit.zip">Download Press Kit</a>
 				</div>
 			</div>
 		</div>
@@ -27,13 +27,35 @@ $page_description = "Want to write about us? Get in touch";
 			</div>
 			<div class="row row-margin">
 				<div class="col-sm-3 col-sm-offset-1">
+					<img class="img-responsive" src="img/alternativein-logo.png" height="10px";/>
+				</div>
+				<div class="col-sm-4">
+					<h4><a href="http://www.thealternative.in/society/lumened-an-accessible-platform-for-better-learning-everywhere/" target="_blank">LumenEd: An accessible platform for better learning everywhere</a></h4>
+				</div>
+				<div class="col-sm-2">
+					<h4>December 2014</h4>
+				</div>
+			</div>
+			<div class="row row-margin">
+				<div class="col-sm-3 col-sm-offset-1">
+					<img class="img-responsive" src="img/foradian-logo-homepage.png" height="10px";/>
+				</div>
+				<div class="col-sm-4">
+					<h4><a href="http://foradian.com/lumened-connecting-students-around-world/" target="_blank">LumenEd: Connecting Students Around the World</a></h4>
+				</div>
+				<div class="col-sm-2">
+					<h4>December 2014</h4>
+				</div>
+			</div>
+			<div class="row row-margin">
+				<div class="col-sm-3 col-sm-offset-1">
 					<img class="img-responsive" src="img/yourstory_logo.png" height="10px";/>
 				</div>
 				<div class="col-sm-4">
 					<h4><a href="http://social.yourstory.com/2014/11/lumened-education/" target="_blank">How this 'bright orange box' can aid thousands of under-resourced classrooms in India</a></h4>
 				</div>
 				<div class="col-sm-2">
-					<h4>December 2014</h4>
+					<h4>November 2014</h4>
 				</div>
 			</div>
 			<div class="row row-margin">

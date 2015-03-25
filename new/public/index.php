@@ -1,5 +1,5 @@
-<?php $page_title = "LumenEd | Home";
-$page_description = "We connect classrooms around the world and bring digital resources to under-resourced classrooms in developing countries";
+<?php $page_title = "LumenEd: Connecting classrooms around the world";
+$page_description = "LumenEd connects classrooms around the world and bring digital resources to under-resourced classrooms in developing countries";
 ?>
 
 <?php include("includes/head.php"); ?>
@@ -10,7 +10,7 @@ $page_description = "We connect classrooms around the world and bring digital re
 		<!-- Landing Page -->
 		<!-- <div class="container-fluid cover" id="cover"> -->
 		<div class="cover-overlay">
-			<div id="video-sec" class="container-fluid cover player lg md sm" data-property="{videoURL:'https://www.youtube.com/watch?v=Ws2YfdU4f28',containment:'self',autoPlay:true, mute:true, startAt:60, stopAt:80, opacity:.7,mute: true,showControls:false}">
+<!-- 			<div id="video-sec" class="container-fluid cover player lg md sm" data-property="{videoURL:'https://www.youtube.com/watch?v=Ws2YfdU4f28',containment:'self',autoPlay:true, mute:true, startAt:60, stopAt:80, opacity:.7,mute: true,showControls:false}">
 				<div class="row text-center pre-video">
 					<div class="col-xs-12">
 						<h1>Connecting classrooms around the world</h1>
@@ -19,25 +19,39 @@ $page_description = "We connect classrooms around the world and bring digital re
 				<div class="row text-center pre-video">
 					<div class="col-xs-12">
 						<a onclick="unhide('video-play', 'video-sec', 'pic-sec')" id="play-video-btn" class="btn btn-primary btn-transparent btn-lg" role="button">Watch Video &nbsp;<span class="glyphicon glyphicon-play" aria-hidden="true"></span></a>
-						<!-- <a class="btn btn-primary btn-transparent btn-lg" role="button" href="#contact">Get In Touch</a> -->
 					</div>
 				</div>
-			</div>
-			<div id="pic-sec" class="container-fluid cover cover-mobile xs">
+			</div> -->
+			<div id="pic-sec" class="container-fluid cover cover-mobile">
 				<div class="row text-center pre-video">
 					<div class="col-xs-12">
 						<h1>Connecting classrooms around the world</h1>
 					</div>
 				</div>
-				<div class="row text-center pre-video">
+<!-- 				<div class="row text-center pre-video">
 					<div class="col-xs-12">
 						<a onclick="unhide('video-play', 'pic-sec', 'video-sec')" id="play-video-btn" class="btn btn-primary btn-transparent btn-lg" role="button">Watch Video &nbsp;<span class="glyphicon glyphicon-play" aria-hidden="true"></span></a>
-						<!-- <a class="btn btn-primary btn-transparent btn-lg" role="button" href="#contact">Get In Touch</a> -->
 					</div>
-				</div>
+				</div> -->
 			</div>
 			<div class="container-fluid hidden" id="video-play">
 					<iframe id="myplayer" src="https://www.youtube.com/embed/Ws2YfdU4f28?rel=0&amp;showinfo=0&" frameborder="0" allowfullscreen></iframe>
+			</div>
+		</div>
+		<div class="container-fluid blue-panel psa">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<h4>We're launching our Kickstarter campaign this Friday and need your support!</h4>
+				</div>
+			</div>
+			<div class="row">
+				<form id="emailForm" action="includes/processEmail.php" method="post">
+					<div class="email-div">
+						<p><input type="email" name="senderEmail" class="form-control" id="senderEmail" placeholder="Email" required="required" maxlength="50" />
+						<input type="submit" id="sendMessage" name="sendMessage" class="btn btn-transparent" role="button" Value="Get Notified"/>
+						<a class="btn btn-transparent" href="http://blog.lumened.org/post/114526346916/its-time-to-be-kickstarted" role="button">Read the Blog</a></p>
+					</div>
+				</form>
 			</div>
 		</div>
 		<div class="container-fluid white-panel three-things">
