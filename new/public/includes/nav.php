@@ -20,6 +20,7 @@
 			<li><a href="box">Box</a></li>
 			<li><a href="about">About</a></li>
 			<li><a href="press">Press</a></li>
+			<li><a href="jobs">Jobs</a></li>
 			<li class="dropdown">
 	</li>
 		</ul>

@@ -107,13 +107,13 @@ $page_description = "The Bright Orange Box is a learning tool that brings digita
 					<h4>500 lumen projector</h4>
 					<h4>8W stereo speakers</h4>
 					<h4>7" 720p touchscreen</h4>
-					<h4>720p video camera</h4>
+					<h4>1080p video camera</h4>
 					<h4>Dual microphones</h4>
 				</div>
 				
 				<div class="col-sm-4 col-sm-offset-1">
 					<h4>WiFi b/g/n + BT 4.0</h4>
-					<h4>3G GSM/CDMA Modem</h4>
+					<h4>3G GSM Modem</h4>
 					<h4>77Wh Battery</h4>
 					<h4>Android 4.2</h4>
 				</div>

@@ -34,10 +34,6 @@ function unhide(divID, otherDivId, otherDiv2Id) {
 	$("#myplayer")[0].src += "&autoplay=1";
 }
 
-// setTimeout(function() {
-    // $('#pic-sec').fadeOut('fast');
-// }, 1000);
-
 //Parallax Scrolling
 (function($) {
  
@@ -116,7 +112,6 @@ function submitForm() {
   return false;
 }
 
-
 // Handle the Ajax response
 
 function submitFinished( response ) {
@@ -132,7 +127,7 @@ function submitFinished( response ) {
     $('#successMessage').fadeIn();
     $('#senderName').val( "" );
     $('#senderEmail').val( "" );
-		// $('#subject').val( "" );
+		$('#subject').val( "" );
     $('#message').val( "" );
 
   } else {
@@ -142,3 +137,35 @@ function submitFinished( response ) {
     $('#failureMessage').fadeIn();
   }
 }
+
+
+// // Submit the form via Ajax
+// function submitEmail() {
+
+// //submit the form to the PHP script via Ajax
+
+// echo $('#subEmail');
+
+  // // Prevent the default form submission occurring
+  // return false;
+// }
+
+// // function emailFinished( response ) {
+  // // response = $.trim( response );
+
+  // // if ( response == "success" ) {
+
+    // // // Form submitted successfully:
+    // // // 1. Display the success message
+    // // // 2. Clear the form fields
+
+    // // $('#emailSuccessMessage').fadeIn();
+    // // $('#subEmail').val( "" );
+
+  // // } else {
+
+    // // // Form submission failed: Display the failure message,
+    // // // then redisplay the form
+    // // $('#incorrectEmail').fadeIn();
+  // // }
+// // }

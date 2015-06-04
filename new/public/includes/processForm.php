@@ -11,6 +11,7 @@ $senderEmail = isset( $_POST['senderEmail'] ) ? preg_replace( "/[^\.\-\_\@a-zA-Z
 $subject = $subjectPrepend;
 // $subject .= isset( $_POST['subject'] ) ? preg_replace( "/[^\.\-\' a-zA-Z0-9]/", "", $_POST['subject'] ) : "";
 $message = isset( $_POST['message'] ) ? preg_replace( "/(From:|To:|BCC:|CC:|Subject:|Content-Type:)/", "", $_POST['message'] ) : "";
+$message .= "\r\n" . $senderEmail;
 
 // If all values exist, send the email
 if ( $senderName && $senderEmail && $message ) {

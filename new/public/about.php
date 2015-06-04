@@ -58,16 +58,16 @@ $page_description = "About Us";
 					<p><a href="mailto:thomas@lumened.org" target="_blank"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
 				</div>
 				<div class="col-sm-2 text-center">
-					<a href="mailto:vmandala@oberlin.edu" target="_blank"><img class="img-circle img-responsive" src="img/Optimized-sm.jpg" alt="Pen Pal Oval"></a>
+					<a href="mailto:shiva@lumened.org" target="_blank"><img class="img-circle img-responsive" src="img/Optimized-sm.jpg" alt="Pen Pal Oval"></a>
 					<h4>Shiva Mandala</h4>
 					<p>Program Manager</p>
-					<p><a href="http://www.linkedin.com/in/venkatashivamandala" target="_blank"><img class="img-responsive" width=20px; src="img/li-square.png"></a> &nbsp;&nbsp;<a href="mailto:vmandala@oberlin.edu" target="_blank"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
+					<p><a href="http://www.linkedin.com/in/venkatashivamandala" target="_blank"><img class="img-responsive" width=20px; src="img/li-square.png"></a> &nbsp;&nbsp;<a href="mailto:shiva@lumened.org" target="_blank"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
 				</div>
 				<div class="col-sm-2 text-center">
-					<a href="mailto:skhosla@oberlin.edu" target="_blank"><img class="img-circle img-responsive" src="img/Optimized-sk.jpg" alt="Pen Pal Oval"></a>
+					<a href="mailto:saksham@lumened.org" target="_blank"><img class="img-circle img-responsive" src="img/Optimized-sk.jpg" alt="Pen Pal Oval"></a>
 					<h4>Saksham Khosla</h4>
 					<p>Media Outreach</p>
-					<p><a href="http://www.linkedin.com/in/sakshamkhosla" target="_blank"><img class="img-responsive" width=20px; src="img/li-square.png"></a> &nbsp;&nbsp;<a href="mailto:skhosla@oberlin.edu" target="_blank"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
+					<p><a href="http://www.linkedin.com/in/sakshamkhosla" target="_blank"><img class="img-responsive" width=20px; src="img/li-square.png"></a> &nbsp;&nbsp;<a href="mailto:saksham@lumened.org" target="_blank"><img class="img-responsive" width=28px; src="img/envelope.png"></a></p>
 				</div>
 			</div>
 		</div>

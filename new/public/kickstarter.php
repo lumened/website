@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Back us on Kickstarter!">
 		<meta name="author" content="LumenEd, Inc">
-		<meta http-equiv="refresh" content="0; url=http://www.kickstarter.com/projects/1066037724/369742023?token=4189b874">
+		<meta http-equiv="refresh" content="0; url=http://bit.ly/lumenedkickstarter">
 		<link rel="shortcut icon" href="img/logo.jpg">
 		<!--Font link via google fonts
 		<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>-->

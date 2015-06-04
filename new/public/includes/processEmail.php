@@ -7,10 +7,10 @@ $subjectPrepend = "Website Mailing List";
 // Read the form values
 $success = false;
 $senderName = "Website Mailing List";
-$senderEmail = "contact@lumened.org";
+$senderEmail = "lumenedinc@gmail.com";
 $subject = $subjectPrepend;
 // $subject .= isset( $_POST['subject'] ) ? preg_replace( "/[^\.\-\' a-zA-Z0-9]/", "", $_POST['subject'] ) : "";
-$message = isset( $_POST['senderEmail'] ) ? preg_replace( "/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['senderEmail'] ) : "";
+$message = isset( $_POST['subEmail'] ) ? preg_replace( "/[^\.\-\_\@a-zA-Z0-9]/", "", $_POST['subEmail'] ) : "";
 
 // If all values exist, send the email
 if ( $senderName && $senderEmail && $message ) {

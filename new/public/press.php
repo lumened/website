@@ -27,13 +27,35 @@ $page_description = "Want to write about us? Get in touch";
 			</div>
 			<div class="row row-margin">
 				<div class="col-sm-3 col-sm-offset-1">
-					<img class="img-responsive" src="img/alternativein-logo.png" height="10px";/>
+					<img class="img-responsive" src="img/education-week-logo.jpg" height="10px";/>
 				</div>
 				<div class="col-sm-4">
-					<h4><a href="http://www.thealternative.in/society/lumened-an-accessible-platform-for-better-learning-everywhere/" target="_blank">LumenEd: An accessible platform for better learning everywhere</a></h4>
+					<h4><a href="http://blogs.edweek.org/edweek/global_learning/2015/04/technology_tools_to_prepare_your_students_for_the_21st_century.html" target="_blank">Technology Ideas and Tools to Connect Students to the World</a></h4>
 				</div>
 				<div class="col-sm-2">
-					<h4>December 2014</h4>
+					<h4>April 2015</h4>
+				</div>
+			</div>
+			<div class="row row-margin">
+				<div class="col-sm-3 col-sm-offset-1">
+					<img class="img-responsive" src="img/teach-thought-logo.png" height="10px";/>
+				</div>
+				<div class="col-sm-4">
+					<h4><a href="http://www.teachthought.com/technology/lumened-seeks-cultural-exchange/" target="_blank">Company Creates Video Pen Pal Technology, Seeks Teacher Support</a></h4>
+				</div>
+				<div class="col-sm-2">
+					<h4>April 2015</h4>
+				</div>
+			</div>
+			<div class="row row-margin">
+				<div class="col-sm-3 col-sm-offset-1">
+					<img class="img-responsive" src="img/huffington-post-logo.jpg" height="10px";/>
+				</div>
+				<div class="col-sm-4">
+					<h4><a href="http://www.huffingtonpost.com/vip-sitaraman/the-projector-that-will-r_b_6974308.html" target="_blank">The Projector That Will Redefine Classrooms</a></h4>
+				</div>
+				<div class="col-sm-2">
+					<h4>April 2015</h4>
 				</div>
 			</div>
 			<div class="row row-margin">

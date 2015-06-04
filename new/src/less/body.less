@@ -34,7 +34,7 @@
 
 .home-page .cover{
 	@media (min-width:@screen-tablet) {
-	min-height: 500px;
+	min-height: 550px;
 	}
 }
 
@@ -85,12 +85,20 @@
 	}
 }
 
-// .home-page .cover .btn {
-	// margin-right: 20px;
-// }
+.home-page .cover .btn {
+	@media (min-width:@screen-xs-min) {
+	margin-right: 20px;
+	}
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.home-page .cover .btn:last-child {
+	margin-right: 0px;
+}
 
 .home-page .cover-mobile {
-	background: url(../img/home_banner.png) no-repeat scroll 0px 30% / cover transparent;
+	background: url(../img/home_banner.jpg) no-repeat scroll 0px 30% / cover transparent;
 }
 
 .about-page .cover {
@@ -103,6 +111,8 @@
 	background: url(../img/bob_header.jpg) no-repeat scroll 0px 50% / cover transparent;
 }
 .press-page .cover {
+	background: url(../img/press_banner.jpg) no-repeat scroll 0px 50% / cover transparent;
+}.jobs-page .cover {
 	background: url(../img/press_banner.jpg) no-repeat scroll 0px 50% / cover transparent;
 }
 
@@ -212,12 +222,12 @@ padding-bottom: 30px;
 }
 .three-things {
 	@media (min-width:@screen-phone) and (max-width:@screen-xs-max) {
-	margin-left: 25%;
-	margin-right: 25%;
+	padding-left: 25%;
+	padding-right: 25%;
 	}
 	@media (min-width:@screen-lg-desktop){
-	margin-left: 8%;
-	margin-right: 8%;
+	padding-left: 8%;
+	padding-right: 8%;
 	}
 }
 .three-things .col-sm-4{
@@ -439,6 +449,24 @@ padding-bottom: 30px;
 	}
 	@media (min-width:@screen-lg-desktop){
 	}
+}
+
+//jobs-page
+.jobs-page .heading-panel{
+	margin-top: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.jobs-page .heading-panel .heading{
+	margin-bottom: 0px;
+}
+.jobs-page h2{
+	color:black;
+}
+.jobs-page .jobs-panel p{
+	margin: 10px;
+	text-align: left;
+	color: black;
 }
 
 @media (min-width:@screen-tablet) {
