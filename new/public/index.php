@@ -12,14 +12,16 @@ $page_description = "LumenEd connects classrooms around the world and bring digi
     ================================================== -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
+      <ol class="carousel-indicators lg md sm">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
         <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+		<!-- <li data-target="#myCarousel" data-slide-to="3" class=""></li> -->
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-			<div id="pic-sec" class="container-fluid cover cover-mobile lg md sm xs">
+		
+			<div id="pic-sec" class="container-fluid cover cover-main lg md sm xs">
 				<div class="row text-center pre-video">
 					<div class="col-xs-12">
 						<h1>Connecting classrooms around the world</h1>
@@ -28,11 +30,61 @@ $page_description = "LumenEd connects classrooms around the world and bring digi
 				<div class="row text-center pre-video">
 					<div class="col-xs-12">
 						<a onclick="unhide('video-play', 'pic-sec', 'video-sec')" id="play-video-btn" class="btn btn-primary btn-transparent btn-lg" role="button">Watch Video &nbsp;<span class="glyphicon glyphicon-play" aria-hidden="true"></span></a>
-				<!-- 		<a class="btn btn-primary btn-transparent btn-lg" href="http://bit.ly/lumenedkickstarter" role="button" target="_blank">Back us on Kickstarter</a> -->
 					</div>
 				</div>
 			</div>
+			
         </div>
+		<div class="item">
+		
+			<div class="container-fluid cover cover-penpal lg md sm xs">
+				<div class="row text-center pre-video">
+					<div class="col-xs-12">
+						<h1>Join the 2015-16 Video Pen Pal Program</h1>
+					</div>
+				</div>
+				<div class="row text-center pre-video">
+					<div class="col-xs-12">
+						<a class="btn btn-primary btn-transparent btn-lg" href="penpal" role="button">Learn more</a>
+					</div>
+				</div>
+			</div>
+			
+        </div>
+		
+		<div class="item">
+		
+			<div class="container-fluid cover cover-blog lg md sm xs">
+				<div class="row text-center pre-video">
+					<div class="col-xs-12">
+						<h1>Follow our progress this summer</h1>
+					</div>
+				</div>
+				<div class="row text-center pre-video">
+					<div class="col-xs-12">
+						<a class="btn btn-primary btn-transparent btn-lg" href="http://blog.lumened.org" target="_blank" role="button">Read the blog</a>
+					</div>
+				</div>
+			</div>
+			
+        </div>
+		
+<!-- 	<div class="item active">
+		
+			<div class="container-fluid cover cover-kickstarter lg md sm xs">
+				<div class="row text-center pre-video">
+					<div class="col-xs-12">
+						<h1>Thanks for a great Kickstarter</h1>
+					</div>
+				</div>
+				<div class="row text-center pre-video">
+					<div class="col-xs-12">
+						<a class="btn btn-primary btn-transparent btn-lg" href="kickstarter" role="button">Check it out</a>
+					</div>
+				</div>
+			</div>
+			
+        </div> -->
       </div>
       <a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -43,11 +95,14 @@ $page_description = "LumenEd connects classrooms around the world and bring digi
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel -->
+	<div class="container-fluid hidden" id="video-play">
+			<iframe id="myplayer" src="https://www.youtube.com/embed/Ws2YfdU4f28?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+	</div>
 		
 		<!-- Landing Page -->
 		<!-- <div class="container-fluid cover" id="cover"> -->
-		<div class="cover-overlay">
-<!-- 			<div id="video-sec" class="container-fluid cover player lg md sm" data-property="{videoURL:'http://www.youtube.com/watch?v=Ws2YfdU4f28',containment:'self',autoPlay:true, mute:true, startAt:135, stopAt:151, opacity:.7,mute: true,showControls:false}">
+<!-- 		<div class="cover-overlay">
+			<div id="video-sec" class="container-fluid cover player lg md sm" data-property="{videoURL:'http://www.youtube.com/watch?v=Ws2YfdU4f28',containment:'self',autoPlay:true, mute:true, startAt:135, stopAt:151, opacity:.7,mute: true,showControls:false}">
 				<div class="row text-center pre-video">
 					<div class="col-xs-12">
 						<h1>Connecting classrooms around the world</h1>
@@ -58,7 +113,7 @@ $page_description = "LumenEd connects classrooms around the world and bring digi
 						<a onclick="unhide('video-play', 'pic-sec', 'video-sec')" id="play-video-btn" class="btn btn-primary btn-transparent btn-lg" role="button">Watch Video &nbsp;<span class="glyphicon glyphicon-play" aria-hidden="true"></span></a>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<div id="pic-sec" class="container-fluid cover cover-mobile lg md sm xs">
 				<div class="row text-center pre-video">
 					<div class="col-xs-12">
@@ -68,14 +123,13 @@ $page_description = "LumenEd connects classrooms around the world and bring digi
 				<div class="row text-center pre-video">
 					<div class="col-xs-12">
 						<a onclick="unhide('video-play', 'pic-sec', 'video-sec')" id="play-video-btn" class="btn btn-primary btn-transparent btn-lg" role="button">Watch Video &nbsp;<span class="glyphicon glyphicon-play" aria-hidden="true"></span></a>
-				<!-- 		<a class="btn btn-primary btn-transparent btn-lg" href="http://bit.ly/lumenedkickstarter" role="button" target="_blank">Back us on Kickstarter</a> -->
 					</div>
 				</div>
 			</div>
 			<div class="container-fluid hidden" id="video-play">
 					<iframe id="myplayer" src="https://www.youtube.com/embed/Ws2YfdU4f28?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
-		</div>
+		</div> -->
 		
 <!-- 		<div class="container-fluid blue-panel psa">
 			<div class="row">
@@ -84,7 +138,7 @@ $page_description = "LumenEd connects classrooms around the world and bring digi
 				</div>
 			</div> -->
 
-		</div>
+		<!-- </div> -->
 <!-- 		<div class="container-fluid summary-panel white-panel">
 			<div class="row text-center">
 				<div class="col-sm-8 col-sm-offset-2">
