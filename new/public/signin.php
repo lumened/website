@@ -3,7 +3,7 @@ $page_description = "Login to see the latest videos and messages from your pen p
 ?>
 
 <?php include("includes/head.php"); ?>
-	<body class="jobs-page" style="overflow-x:hidden;">
+	<body class="signin-page" style="overflow-x:hidden;">
 		<?php include ('includes/nav.php');?>
 
 <!-- 		<div class="container-fluid cover row">
@@ -19,19 +19,27 @@ $page_description = "Login to see the latest videos and messages from your pen p
 			</div>
 		</div> -->
 		
-		<div class="container-fluid orange-panel heading-panel">
+<!-- 		<div class="container-fluid orange-panel heading-panel">
 			<div class="row">
 				<div class="col-xs-12 text-center">
 					<h1 class="heading">Video Pen Pal Program 2015-16</h1>
 				</div>
 			</div>
-		</div>
-		<div class="container-fluid white-panel jobs-panel">
-			<div class="row text-center">
-				<div class="col-sm-8 col-sm-offset-2">
-					
+		</div> -->
+		<div class="container-fluid orange-panel signin-panel">
+			<form class="form-signin">
+				<h2 class="form-signin-heading">Please sign in</h2>
+				<label for="inputEmail" class="sr-only">Email address</label>
+				<input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" autocomplete="off">
+				<label for="inputPassword" class="sr-only">Password</label>
+				<input type="password" id="inputPassword" class="form-control" placeholder="Password" required="" autocomplete="off">
+				<div class="checkbox">
+				  <label>
+					<input type="checkbox" value="remember-me"> Remember me
+				  </label>
 				</div>
-			</div>
+				<button class="btn btn-lg btn-transparent btn-block" type="submit">Sign in</button>
+			  </form>
 		</div>
 		
 		
