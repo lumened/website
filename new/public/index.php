@@ -1,4 +1,4 @@
-<?php $page_title = "LumenEd: Connecting classrooms around the world";
+<?php $page_title = "LumenEd";
 $page_description = "LumenEd connects classrooms around the world and bring digital resources to under-resourced classrooms in developing countries";
 ?>
 
@@ -16,7 +16,7 @@ $page_description = "LumenEd connects classrooms around the world and bring digi
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1" class=""></li>
         <li data-target="#myCarousel" data-slide-to="2" class=""></li>
-		<!-- <li data-target="#myCarousel" data-slide-to="3" class=""></li> -->
+		<li data-target="#myCarousel" data-slide-to="3" class=""></li>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
@@ -69,22 +69,22 @@ $page_description = "LumenEd connects classrooms around the world and bring digi
 			
         </div>
 		
-<!-- 	<div class="item active">
+	<div class="item">
 		
 			<div class="container-fluid cover cover-kickstarter lg md sm xs">
 				<div class="row text-center pre-video">
 					<div class="col-xs-12">
-						<h1>Thanks for a great Kickstarter</h1>
+						<h1>Thanks to all our backers!</h1>
 					</div>
 				</div>
 				<div class="row text-center pre-video">
 					<div class="col-xs-12">
-						<a class="btn btn-primary btn-transparent btn-lg" href="kickstarter" role="button">Check it out</a>
+						<a class="btn btn-primary btn-transparent btn-lg" href="kickstarter" role="button" target="_blank" >Check out the Campaign</a>
 					</div>
 				</div>
 			</div>
 			
-        </div> -->
+        </div>
       </div>
       <a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>

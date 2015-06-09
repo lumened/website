@@ -1,13 +1,12 @@
-.signin-page {
+.signin-page, .newaccount-page {
 	background-color: @primaryDark;
 }
 
-.signin-page footer {
+.signin-page footer, .newaccount-page footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 }
-
 
 .form-signin {
   max-width: 330px;
@@ -39,7 +38,14 @@
   border-bottom-left-radius: 0;
 }
 .form-signin input[type="password"] {
-  margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.signin-page .form-signin input[type="password"] {
+	margin-bottom: 10px;
+}
+
+.newaccount-page .form-signin input[type="email"] {
+	margin-bottom: 10px;
 }

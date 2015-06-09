@@ -116,7 +116,7 @@ $page_description = "The Video Pen Pal Program connects classrooms across the wo
 				</div>
 				<div class="col-sm-6 text-center">
 					<h3 class="heading">Sponsorship Model</h3>
-					<h4 class="text-left">US classrooms sponsor a <a href="box.php">Bright Orange Box</a> for their Indian partners, so they can participate too</h4>
+					<h4 class="text-left">US classrooms sponsor a <a href="box">Bright Orange Box</a> for their Indian partners, so they can participate too</h4>
 				</div>
 			</div>
 		</div>
