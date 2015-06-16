@@ -3,7 +3,7 @@ $page_description = "Login to see the latest videos and messages from your pen p
 ?>
 
 <?php include("includes/head.php"); ?>
-	<body class="newaccount-page" style="overflow-x:hidden;">
+	<body class="newaccount-page orange-background" style="overflow-x:hidden;">
 		<?php include ('includes/nav.php');?>
 		
 		<div class="container-fluid orange-panel signin-panel">

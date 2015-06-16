@@ -3,7 +3,7 @@ $page_description = "Thanks to all of our Kickstarter Backers.";
 ?>
 
 <?php include("includes/head.php"); ?>
-	<body class="thankyou-page" style="overflow-x:hidden;">
+	<body class="thankyou-page orange-background" style="overflow-x:hidden;">
 		<?php include ('includes/nav.php');?>
 		
 		<div class="container-fluid orange-panel heading-panel">
@@ -80,7 +80,7 @@ $page_description = "Thanks to all of our Kickstarter Backers.";
 			Michael Jacobs	|
 			Michael Lipman	|
 			Michael Stenovec	|
-			Michelle Mostow	|
+			The Mostow Family	|
 			Mikey Pitts	|
 			Nancy Nguyen	|
 			Nick Petzak	|
