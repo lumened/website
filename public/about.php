@@ -35,7 +35,7 @@ $page_description = "About Us";
 			</div>
 			<div class="row row-margin text-center">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h4 class="text-justify">LumenEd was founded by five students at Oberlin College. We started in 2013 with our first prototype of the Bright Orange Box. Since then, we iterated our design by testing in Indian classrooms and ran a pilot of the Video Pen Pal Program with classrooms in the US. Our business model has been refined through pitch competitions and talking with administrators. Along the way, we've worked with classrooms, developed hardware and software tools and built a business. In May 2015, we're graduating from Oberlin and will work full-time to make a meaningful impact on global education.</h4>
+					<h4 class="text-justify">LumenEd was founded by five students at Oberlin College. We started in 2013 with our first prototype of the Bright Orange Box. Since then, we iterated our design by testing in Indian classrooms and ran a pilot of the Video Pen Pal Program with classrooms in the US. Our business model has been refined through pitch competitions and talking with administrators. Along the way, we've worked with classrooms, developed hardware and software tools and built a business. As of June 2015, we've expanded from our headquarters in Cleveland, Ohio with an additional office in New Delhi, India.</h4>
 				</div>
 			</div>
 			<div class="row team-ovals lg md sm text-center">

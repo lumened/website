@@ -6,18 +6,13 @@ $page_description = "Want to write about us? Get in touch";
 	<body class="press-page" style="overflow-x:hidden;">
 		<?php include ('includes/nav.php');?>
 
-		<div class="container-fluid cover row">
-<!-- 			<div class="row text-center">
-				<div class="col-sm-10 col-sm-offset-1">
-					<h1>Help us spread the word!</h1>
-				</div>
-			</div> -->
+<!-- 		<div class="container-fluid cover row">
 			<div class="row text-center">
 				<div class="col-xs-12">
 					<a class="btn btn-transparent btn-lg" role="button" href="LumenEdPressKit.zip">Download Press Kit</a>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		
 		<div class="container-fluid inthepress-panel white-panel">
 			<div class="row">

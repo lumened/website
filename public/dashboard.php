@@ -4,7 +4,7 @@ $page_description = "The latest videos and messages from your pen pals";
 
 <?php include("includes/head.php"); ?>
 	<body class="dashboard-page orange-background" style="overflow-x:hidden;">
-		<?php include ('includes/navPenPal.php');?>
+		<?php include ('includes/navPenpal.php');?>
 		
 		<div class="container-fluid orange-panel dashboard-heading">
 			<div class="row row-margin">

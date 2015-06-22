@@ -96,7 +96,7 @@ $page_description = "Join the team!";
 					</p>
 					<p>
 						Send the following materials to Shiva Mandala (<a href="mailto:shiva@lumened.org">shiva@lumened.org</a>) with ‘Program Associate Application’ in the
-						subject of the email. The deadline is June 1st.
+						subject of the email. The deadline is July 1st.
 					</p>
 					<p>
 						1. A cover letter
@@ -108,7 +108,7 @@ $page_description = "Join the team!";
 						3. A work OR academic letter of recommendation is strongly recommended
 					</p>
 					<p>
-						If you are selected for the next round, you will be contacted via email for a phone interview. The final stage will be an in-person interview in June.
+						If you are selected for the next round, you will be contacted via email for a phone interview. The final stage will be an in-person interview in July.
 					</p>
 				</div>
 			</div>
@@ -123,7 +123,7 @@ $page_description = "Join the team!";
 					</p>
 					<p>
 						<strong>Start Date: </strong>
-						July 1st, 2015
+						August 1st, 2015
 					</p>
 <!-- 					<p>
 						<strong>About LumenEd</strong>

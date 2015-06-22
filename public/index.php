@@ -164,7 +164,7 @@ $page_description = "LumenEd connects classrooms around the world and bring digi
 				<div class="col-sm-4 text-center">
 					<img class="img-circle" src="img/team_oval.jpg" alt="Team Oval" style="width: 140px; height: 140px;">
 					<h3>About Us</h3>
-					<p>We're a team of students passionate about improving education through technology.</p>
+					<p>We're a team of individuals passionate about improving education through technology.</p>
 					<p><a class="btn btn-blue" href="about" role="button">Meet the team</a></p>
 				</div>
 			</div>

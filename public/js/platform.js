@@ -24,7 +24,7 @@ function submitForm() {
     $.ajax( {
       url: signinForm.attr( 'action' ) + "?ajax=true",
       type: signinForm.attr( 'method' ),
-      data: signinForm.serialize(),
+      data: ({email: $('#email').val(), password: $('#password').val()}),
       success: submitFinished
     } );
   }
@@ -38,16 +38,16 @@ function submitForm() {
 function submitFinished( response ) {
   response = $.trim( response );
 // $('#sendingMessage').fadeOut();
-
   if ( response == "success" ) {
 
     // Form submitted successfully:
     // 1. Display the success message
     // 2. Clear the form fields
-
-    $('#successMessage').fadeIn();
-    $('#email').val( "" );
-    $('#password').val( "" );
+	
+	window.location.href = "http://lumened.org/dashboard";
+    // $('#successMessage').fadeIn();
+    // $('#email').val( "" );
+    // $('#password').val( "" );
 
   } else {
 
