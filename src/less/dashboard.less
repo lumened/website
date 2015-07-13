@@ -1,17 +1,75 @@
-
+//dashboard-page
 .dashboard-heading{
 	padding-top: 80px;
+	padding-bottom: 20px;
 }
 
 .dashboard-heading img {
 	margin-bottom: 10px;
+	width: 140px;
+	height: 140px;
+	padding: 4px;
+	background-color: white;
+	border: 1px solid #ddd;
+	border-radius:3px;
+	
 }
 
-.welcome-message h2 {
+.welcome-message {
+	@media (min-width:@screen-tablet) {
+	font-size:33px;
+	}
+	@media (min-width:@screen-desktop) {
+	font-size: 36px;
+	}
+}
+
+.dashboard-main {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.dashboard-main {
+    position: absolute;
+    bottom: 0;
+    top: 284px;
+}
+
+.dashboard-main .heading{
 	margin-bottom: 10px;
 }
 
+.dashboard-main .tab-pane {
+	height: 300px;
+	background-color: white;
+	color: black;
+}
+
+.dashboard-main .nav-pills, .dashboard-main .tab-content {
+	background-color: @secondaryLight;
+}
+
+.dashboard-main .row div:first-child {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+//editprofile-page
 .editprofile-page img{
 	margin:auto;
 	display: block;
+}
+
+.editprofile-page .pic-btn {
+	width: 140px;
+	margin: auto;
+}
+
+.editprofile-page .profile-about{
+	width:100%;
+}
+
+.editprofile-page #imageInput{
+	width:185px;
+	margin: auto;
 }

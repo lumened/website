@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top navbar-penpal" role="navigation">
 	<div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -12,14 +12,14 @@
 				<img class="logo" src="img/lumened-text-logo2.png" alt="Logo">
 			</a>
 		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
+		
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
+				<li><a href="signin">Dashboard</a></li>
 				<li><a href="signin">Log Out</a></li>
 				<li class="dropdown">
 				</li>
 			</ul>
-		</div><!-- /.navbar-collapse -->
-	</div><!-- /.container-fluid -->
+		</div>
+	</div>
 </nav>
