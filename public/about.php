@@ -15,7 +15,7 @@ $page_description = "About Us";
 			</div>
 			<div class="row text-center">
 				<div class="col-xs-12">
-					<a href="#contact" class="btn btn-transparent btn-lg" role="button" href="#">Contact Us</a>
+					<a href="mailto:contact@lumened.org" class="btn btn-transparent btn-lg" role="button">Contact Us</a>
 				</div>
 			</div>
 		</div>
@@ -75,26 +75,6 @@ $page_description = "About Us";
 		<div class="container-fluid detail-panel grey-panel"> 
 			<div class="row text-center">
 				<div class="col-xs-12">
-					<h3 class="heading">LaunchU Accelerator and Pitch Competition, January 2015</h3>
-				</div>
-			</div>
-			<div class="row detail-pic-row text-center">
-				<div class="col-md-4 col-md-offset-2">
-					<img class="img-responsive" width=500px; src="img/launchteam.jpg"/>
-				</div>
-				<div class="col-md-4 lg md">
-					<img class="img-responsive" width=500px; src="img/launchulogo.jpg"/>
-				</div>
-			</div>
-			<div class="row text-center">
-				<div class="col-sm-8 col-sm-offset-2">
-					<h4 class="text-left">In January 2014, we were accepted into Oberlin College’s premier startup accelerator and pitch competition, where we received first place from a panel of judges. In January 2015, we re-entered the competition with a revamped business model and took home second place from a much larger prize pool.</h4>
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid detail-panel white-panel"> 
-			<div class="row text-center">
-				<div class="col-xs-12">
 					<h3 class="heading">Pilot Program, July-December 2014</h3>
 				</div>
 			</div>
@@ -118,9 +98,68 @@ $page_description = "About Us";
 			</div>
 		</div>
 		
-		<?php $contact_header = "Contact Us";
-		$contact_subheader = "Working together with organizations, schools, and individuals who share our vision keeps us moving forward. We’d love to hear from you.";?>
-		<?php include ('includes/contact.php');?>
+				<div class="container-fluid inthepress-panel white-panel">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<h3 class="heading">In The Press</h3>
+				</div>
+			</div>
+			<div class="row row-margin">
+				<div class="col-sm-3 col-sm-offset-1">
+					<img class="img-responsive" src="img/education-week-logo.jpg" height="10px";/>
+				</div>
+				<div class="col-sm-4">
+					<h4><a href="http://blogs.edweek.org/edweek/global_learning/2015/04/technology_tools_to_prepare_your_students_for_the_21st_century.html" target="_blank">Technology Ideas and Tools to Connect Students to the World</a></h4>
+				</div>
+				<div class="col-sm-2">
+					<h4>April 2015</h4>
+				</div>
+			</div>
+			<div class="row row-margin">
+				<div class="col-sm-3 col-sm-offset-1">
+					<img class="img-responsive" src="img/teach-thought-logo.png" height="10px";/>
+				</div>
+				<div class="col-sm-4">
+					<h4><a href="http://www.teachthought.com/technology/lumened-seeks-cultural-exchange/" target="_blank">Company Creates Video Pen Pal Technology, Seeks Teacher Support</a></h4>
+				</div>
+				<div class="col-sm-2">
+					<h4>April 2015</h4>
+				</div>
+			</div>
+			<div class="row row-margin">
+				<div class="col-sm-3 col-sm-offset-1">
+					<img class="img-responsive" src="img/huffington-post-logo.jpg" height="10px";/>
+				</div>
+				<div class="col-sm-4">
+					<h4><a href="http://www.huffingtonpost.com/vip-sitaraman/the-projector-that-will-r_b_6974308.html" target="_blank">The Projector That Will Redefine Classrooms</a></h4>
+				</div>
+				<div class="col-sm-2">
+					<h4>April 2015</h4>
+				</div>
+			</div>
+			<div class="row row-margin">
+				<div class="col-sm-3 col-sm-offset-1">
+					<img class="img-responsive" src="img/yourstory_logo.png" height="10px";/>
+				</div>
+				<div class="col-sm-4">
+					<h4><a href="http://social.yourstory.com/2014/11/lumened-education/" target="_blank">How this 'bright orange box' can aid thousands of under-resourced classrooms in India</a></h4>
+				</div>
+				<div class="col-sm-2">
+					<h4>November 2014</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-3 col-sm-offset-1">
+					<img src="img/oberlin-logo.jpg" height=50px;/>
+				</div>
+				<div class="col-sm-4">
+					<h4><a href="http://news.oberlin.edu/articles/orange-new-learning-tool/" target="_blank">Orange is the new learning tool</a></h4>
+				</div>
+				<div class="col-sm-2">
+					<h4>July 2014</h4>
+				</div>
+			</div>
+		</div>
 		
 		<?php include ('includes/footer.php');?>
 		<?php include ('includes/scripts.php');?>

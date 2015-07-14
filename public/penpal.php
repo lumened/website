@@ -15,7 +15,7 @@ $page_description = "The Video Pen Pal Program connects classrooms across the wo
 			</div>
 			<div class="row text-center">
 				<div class="col-xs-12">
-					<a href="#contact" class="btn btn-primary btn-transparent btn-lg" role="button" href="#">Sign Up</a>
+					<a href="#contact" class="btn btn-primary btn-transparent btn-lg" role="button" href="#join">Join the Program</a>
 				</div>
 			</div>
 		</div>
@@ -121,11 +121,19 @@ $page_description = "The Video Pen Pal Program connects classrooms across the wo
 			</div>
 		</div>
 		
-		
-		<?php $contact_header = "Join the Program";
-		$contact_subheader = "We're looking for fifty teachers to join our 2015-16 program! Want to be one of them? Send us a message below.";?>
-		
-		<?php include ('includes/contact.php');?>
+		<div id="join" class="container-fluid blue-panel"> 
+			<div class="row text-center">
+				<div class="col-xs-12">
+					<h3 class="heading">Interested in Participating? Get in touch!</h3>
+				</div>
+			</div>
+			<div class="row text-center row-margin">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h4 class="row-margin">We're looking for a select group of forward-thinking institutions and educators to join this year's program.</h4>
+					<h4><i class="fa fa-envelope"></i> <a href="mailto:contact@lumened.org">contact@lumened.org</a></h4>
+				</div>
+			</div>
+		</div>
 		
 		<?php include ('includes/footer.php');?>
 		<?php include ('includes/scripts.php');?>

@@ -15,7 +15,7 @@ $page_description = "The Bright Orange Box is a learning tool that brings digita
 			</div>
 			<div class="row text-center">
 				<div class="col-xs-12">
-					<a href="#contact" class="btn btn-transparent btn-lg" role="button" href="#">Sponsor a Box</a>
+					<!-- <a href="#contact" class="btn btn-transparent btn-lg" role="button" href="#">The new Bright Orange Box</a> -->
 				</div>
 			</div>
 		</div>
@@ -86,7 +86,7 @@ $page_description = "The Bright Orange Box is a learning tool that brings digita
 			</div>
 			<div class="row text-center">
 				<div class="col-sm-8 col-sm-offset-2">
-					<h4 class="heading">The new Bright Orange Box will enter classrooms in India, Ghana and Senegal in Summer 2015</h4>
+					<h4 class="heading">The new Bright Orange Box will enter classrooms in India, Ghana and Senegal in Summer 2015.</h4>
 				</div>
 			</div>
 			<!-- <div class="row text-center">
@@ -102,7 +102,7 @@ $page_description = "The Bright Orange Box is a learning tool that brings digita
 					<img class="img-responsive" src="img/render-back.png"/>
 				</div>
 			</div>
-			<div class="row specs">
+			<div class="row row-margin specs">
 				<div class="col-sm-4 col-sm-offset-2">
 					<h4>500 lumen projector</h4>
 					<h4>8W stereo speakers</h4>
@@ -118,12 +118,13 @@ $page_description = "The Bright Orange Box is a learning tool that brings digita
 					<h4>Android 4.2</h4>
 				</div>
 			</div>
+			<div class="row text-center">
+				<div class="col-sm-8 col-sm-offset-2">
+					<h3 class="row-margin">Interested in the Bright Orange Box? Get in touch.</h3>
+					<h4><i class="fa fa-envelope"></i> <a href="mailto:contact@lumened.org">contact@lumened.org</a></h4>
+				</div>
+			</div>
 		</div>
-		
-		<?php $contact_header = "Sponsor a Box";
-		$contact_subheader = "Write to us to bring the Bright Orange Box to an under-resourced classroom";?>
-		
-		<?php include ('includes/contact.php');?>
 		
 		<?php include ('includes/footer.php');?>
 		<?php include ('includes/scripts.php');?>

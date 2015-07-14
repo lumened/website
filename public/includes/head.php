@@ -13,6 +13,7 @@
 		<title><?php echo $page_title; ?></title>
 
 		<!-- CSS -->
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link href="css/styles.css" rel="stylesheet">
 
 		<!-- Just for debugging purposes. Don't actually copy this line! -->

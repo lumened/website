@@ -98,6 +98,7 @@ $page_description = "LumenEd connects classrooms around the world and bring digi
 	<div class="container-fluid hidden" id="video-play">
 			<iframe id="myplayer" src="https://www.youtube.com/embed/Ws2YfdU4f28?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 	</div>
+	
 		
 		<!-- Landing Page -->
 		<!-- <div class="container-fluid cover" id="cover"> -->
@@ -172,7 +173,6 @@ $page_description = "LumenEd connects classrooms around the world and bring digi
 		
 		<?php $contact_header = "Contact Us";
 		$contact_subheader = "Send us a message. We'd love to hear from you.";?>
-		<?php include ('includes/contact.php');?>
 		
 		<?php include ('includes/footer.php');?>
 		<?php include ('includes/scripts.php');?>

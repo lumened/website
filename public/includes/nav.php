@@ -18,9 +18,9 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="penpal">Pen Pal Program</a></li>
 				<li><a href="box">Box</a></li>
+				
 				<li><a href="about">About</a></li>
-				<li><a href="press">Press</a></li>
-				<li><a href="jobs">Jobs</a></li>
+				<li><a href="http://blog.lumened.org">Blog</a></li>
 				<li class="dropdown">
 				</li>
 			</ul>

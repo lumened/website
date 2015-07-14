@@ -3,12 +3,12 @@ var messageDelay = 5000;  // How long to display status messages (in millisecond
 // get the value of the bottom of the #main element by adding the offset of that element plus its height, set it as a variable
 var coverbottom = $(".cover").offset().top + $(".cover").height();
 
-$(document).ready(function () {
-    // BACKGROUND VIDEO SCRIPTS
-        $(function () {
-            $(".player").mb_YTPlayer(); // .player - class to add for playing video (see the div above to understand)
-        });
-});
+// $(document).ready(function () {
+    // // BACKGROUND VIDEO SCRIPTS
+        // $(function () {
+            // $(".player").mb_YTPlayer(); // .player - class to add for playing video (see the div above to understand)
+        // });
+// });
 
 // on scroll, 
 $(window).on('scroll',function(){
@@ -139,33 +139,6 @@ function submitFinished( response ) {
 }
 
 
-// // Submit the form via Ajax
-// function submitEmail() {
 
-// //submit the form to the PHP script via Ajax
 
-// echo $('#subEmail');
 
-  // // Prevent the default form submission occurring
-  // return false;
-// }
-
-// // function emailFinished( response ) {
-  // // response = $.trim( response );
-
-  // // if ( response == "success" ) {
-
-    // // // Form submitted successfully:
-    // // // 1. Display the success message
-    // // // 2. Clear the form fields
-
-    // // $('#emailSuccessMessage').fadeIn();
-    // // $('#subEmail').val( "" );
-
-  // // } else {
-
-    // // // Form submission failed: Display the failure message,
-    // // // then redisplay the form
-    // // $('#incorrectEmail').fadeIn();
-  // // }
-// // }
